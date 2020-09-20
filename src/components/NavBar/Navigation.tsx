@@ -27,7 +27,7 @@ export default function Navigation() {
   return (
     <>
       <Wrapper>
-        <NavLink to="/">About</NavLink>
+        <NavLink to="/about">About</NavLink>
         <NavLink to="/">Events</NavLink>
         <NavLink to="/">HOPE</NavLink>
         <NavLink to="/">SEA CLEAR</NavLink>

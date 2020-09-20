@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-import { ReactComponent as FBLogo } from "../../assets/facebook.svg";
-import { ReactComponent as IGLogo } from "../../assets/instagram.svg";
-import { ReactComponent as TwitterLogo } from "../../assets/twitter.svg";
-import { ReactComponent as YoutubeLogo } from "../../assets/youtube.svg";
+import { ReactComponent as FBLogo } from "../assets/facebook.svg";
+import { ReactComponent as IGLogo } from "../assets/instagram.svg";
+import { ReactComponent as TwitterLogo } from "../assets/twitter.svg";
+import { ReactComponent as YoutubeLogo } from "../assets/youtube.svg";
 
 const IconWrapper = styled("div")`
   display: flex;

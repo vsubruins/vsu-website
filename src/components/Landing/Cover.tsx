@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 
-import YellowCircle from "../assets/yellowcircle.svg";
+import { ReactComponent as YellowCircle } from "../../assets/yellowcircle.svg";
+import { ReactComponent as RedTriangle } from "../../assets/redtriangle.svg";
 
 const Layout = styled("div")`
   display: flex;
@@ -20,6 +21,8 @@ const CoverWrapper = styled("div")`
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: -10;
 `;
 
 const Text = styled("div")`
@@ -37,12 +40,29 @@ const WelcomeText = styled("p")`
   margin-top: 0px;
 `;
 
+const Circle = styled(YellowCircle)`
+  position: absolute;
+  z-index: -5;
+  width: 170px;
+  left: 10px;
+`;
+
+const Triangle = styled(RedTriangle)`
+  position: absolute;
+  z-index: -5;
+  width: 250px;
+  right: -70px;
+  top: -70px;
+`;
+
 export default function Cover() {
   return (
     <>
       <Layout>
         <SlideWrapper />
         <CoverWrapper>
+          <Circle />
+          <Triangle />
           <Text>
             <WelcomeText>Welcome! Xin chào.</WelcomeText>
             We are the Vietnamese Student Union at UCLA.

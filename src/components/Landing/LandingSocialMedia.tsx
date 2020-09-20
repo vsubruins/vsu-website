@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
-import SocialMediaIcons from "./SocialMediaIcons";
+import SocialMediaIcons from "../SocialMediaIcons";
 
 import { ReactComponent as YellowCircle } from "../../assets/yellowcircle.svg";
 import { ReactComponent as BlueTriangle } from "../../assets/bluetriangle.svg";
@@ -11,6 +11,7 @@ const Wrapper = styled("div")`
   flex-direction: column;
   align-items: center;
   position: relative;
+  margin-bottom: 70px;
 `;
 
 const FollowUs = styled("p")`

@@ -3,9 +3,10 @@ import styled from "styled-components";
 
 const Wrapper = styled("div")`
   display: flex;
-  width: 90%;
+  width: 85%;
   justify-content: space-between;
-  margin-bottom: 35px;
+  margin-bottom: 70px;
+  margin-top: 20px;
 `;
 
 const Col = styled("div")`
