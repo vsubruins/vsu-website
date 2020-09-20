@@ -7,13 +7,7 @@ import LandingInfo from "../components/Landing/LandingInfo";
 import LandingSocialMedia from "../components/Landing/LandingSocialMedia";
 import Calendar from "../components/Landing/Calendar";
 import Footer from "../components/Footer/Footer";
-
-const PageWrapper = styled("div")`
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  align-items: center;
-`;
+import { PageWrapper } from "../components/Page/Page";
 
 export default function LandingPage() {
   return (
