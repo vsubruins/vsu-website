@@ -29,11 +29,11 @@ export default function Navigation() {
       <Wrapper>
         <NavLink to="/about">About</NavLink>
         <NavLink to="/">Events</NavLink>
-        <NavLink to="/">HOPE</NavLink>
-        <NavLink to="/">SEA CLEAR</NavLink>
+        <NavLink to="/hope">HOPE</NavLink>
+        <NavLink to="/seaclear">SEA CLEAR</NavLink>
         <NavLink to="/">Staff</NavLink>
         <NavLink to="/">Gallery</NavLink>
-        <NavLink to="/">Contact</NavLink>
+        <NavLink to="/membership">Membership</NavLink>
       </Wrapper>
     </>
   );
