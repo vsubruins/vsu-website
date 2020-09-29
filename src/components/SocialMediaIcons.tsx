@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import { ReactComponent as FBLogo } from "../assets/facebook.svg";
 import { ReactComponent as IGLogo } from "../assets/instagram.svg";
@@ -12,20 +12,24 @@ const IconWrapper = styled("div")`
   justify-content: space-between;
 `;
 
+const Link = styled("a")`
+  text-decoration: none;
+`;
+
 export default function SocialMediaIcons(props: { width: string }) {
   return (
     <>
       <IconWrapper style={{ width: props.width }}>
-        <Link to="/">
+        <Link href="https://www.facebook.com/vsubruins">
           <FBLogo style={{ width: "40px", height: "40px" }} />
         </Link>
-        <Link to="/">
+        <Link href="https://www.instagram.com/vsubruins/">
           <IGLogo style={{ width: "40px", height: "40px" }} />
         </Link>
-        <Link to="/">
+        <Link href="https://twitter.com/vsubruins?s=21">
           <TwitterLogo style={{ width: "40px", height: "40px" }} />
         </Link>
-        <Link to="/">
+        <Link href="https://www.youtube.com/c/vsubruins">
           <YoutubeLogo style={{ width: "40px", height: "40px" }} />
         </Link>
       </IconWrapper>
