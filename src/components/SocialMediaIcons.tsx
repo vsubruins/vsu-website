@@ -20,16 +20,16 @@ export default function SocialMediaIcons(props: { width: string }) {
   return (
     <>
       <IconWrapper style={{ width: props.width }}>
-        <Link href="https://www.facebook.com/vsubruins">
+        <Link href="https://www.facebook.com/vsubruins" target="_blank">
           <FBLogo style={{ width: "40px", height: "40px" }} />
         </Link>
-        <Link href="https://www.instagram.com/vsubruins/">
+        <Link href="https://www.instagram.com/vsubruins/" target="_blank">
           <IGLogo style={{ width: "40px", height: "40px" }} />
         </Link>
-        <Link href="https://twitter.com/vsubruins?s=21">
+        <Link href="https://twitter.com/vsubruins?s=21" target="_blank">
           <TwitterLogo style={{ width: "40px", height: "40px" }} />
         </Link>
-        <Link href="https://www.youtube.com/c/vsubruins">
+        <Link href="https://www.youtube.com/c/vsubruins" target="_blank">
           <YoutubeLogo style={{ width: "40px", height: "40px" }} />
         </Link>
       </IconWrapper>
