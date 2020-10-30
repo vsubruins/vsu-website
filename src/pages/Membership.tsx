@@ -54,7 +54,7 @@ export default function Membership() {
             Sela Tran
             <br />
             <br />
-            Social Affairs Coordinator 2020-2021 <br /> selavtran@gmail.com
+            Social Affairs Coordinator 2020-2021 <br /> selatran@ucla.edu
           </PageText>
         </PageContent>
         <Footer />
