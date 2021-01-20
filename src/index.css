@@ -11,3 +11,8 @@ code {
   font-family: "Kumbh Sans", source-code-pro, Menlo, Monaco, Consolas,
     "Courier New", monospace;
 }
+
+:root {
+  --lightyellow: #ffe9c0;
+  --blue: #4051a3;
+}

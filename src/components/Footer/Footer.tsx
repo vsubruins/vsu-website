@@ -8,7 +8,7 @@ const Wrapper = styled("div")`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background: #ffe9c0;
+  background: var(--lightyellow);
   height: 275px;
 `;
 

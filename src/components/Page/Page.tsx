@@ -42,3 +42,10 @@ export const PageContent = styled("div")`
   width: 85%;
   margin-bottom: 80px;
 `;
+
+export const Gallery = styled("div")`
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+`;

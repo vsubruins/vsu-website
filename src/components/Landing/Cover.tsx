@@ -11,13 +11,13 @@ const Layout = styled("div")`
 `;
 
 const SlideWrapper = styled("div")`
-  background: #4051a3;
+  background: var(--blue);
   width: 50%;
 `;
 
 const CoverWrapper = styled("div")`
   width: 50%;
-  background: #ffe9c0;
+  background: var(--lightyellow);
   display: flex;
   justify-content: center;
   align-items: center;
