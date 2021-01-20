@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 import Navigation from "./Navigation";
 
@@ -14,7 +15,7 @@ const NavWrapper = styled("div")`
   margin-bottom: 30px;
 `;
 
-const LogoDiv = styled("div")`
+const LogoDiv = styled(Link)`
   position: absolute;
   left: 50%;
   /* margin-top: 30px;
@@ -31,7 +32,7 @@ export default function NavBar() {
     <>
       <NavWrapper>
         <Navigation />
-        <LogoDiv>
+        <LogoDiv to="/">
           <VSULogo />
         </LogoDiv>
       </NavWrapper>
