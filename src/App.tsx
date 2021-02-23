@@ -7,6 +7,7 @@ import Membership from "./pages/Membership";
 import HOPE from "./pages/HOPE";
 import SEACLEAR from "./pages/SEACLEAR";
 import Staff from "./pages/Staff";
+import Gallery from "./pages/Gallery";
 import Page404 from "./pages/404";
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
           <Route path="/hope" component={HOPE}></Route>
           <Route path="/seaclear" component={SEACLEAR}></Route>
           <Route path="/staff" component={Staff}></Route>
+          <Route path="/gallery" component={Gallery} />
           <Route component={Page404}></Route>
         </Switch>
       </Router>

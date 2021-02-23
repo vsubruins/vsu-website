@@ -102,3 +102,18 @@ export var staffMembers = [
     picture: jimmy,
   },
 ];
+
+// PHOTOS FOR GALLERY
+function importAll(r) {
+  return r.keys().map(r);
+}
+
+const images = importAll(
+  require.context("./gallery", false, /\.(png|jpe?g|svg|JPG)$/)
+);
+
+export var photos = images.map((pic) => {
+  // var width = Math.max(1, Math.round(Math.random() * 4));
+  // var height = Math.max(1, Math.round(Math.random() * width));
+  return { src: pic, width: 3, height: 2 };
+});
