@@ -51,10 +51,10 @@ export default function Membership() {
             <br />
             Contact:
             <br />
-            Sela Tran
+            Michelle Pham 
             <br />
             <br />
-            Social Affairs Coordinator 2020-2021 <br /> selatran@ucla.edu
+            Social Affairs Coordinator 2021-2022 <br /> michellepham789@gmail.com
           </PageText>
         </PageContent>
         <Footer />
