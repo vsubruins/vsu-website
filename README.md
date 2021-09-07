@@ -1,44 +1,69 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+All of these commands are run in terminal!
 
-## Available Scripts
+### Cloning/Getting this repository on your computer
 
-In the project directory, you can run:
+You can skip this step if you already have it!
 
-### `yarn start`
+Go to the folder where you want this repository and run
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+```
+git clone https://github.com/vsubruins/vsu-website.git
+```
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Then, run this command to install all the packages needed
 
-### `yarn test`
+```
+yarn
+```
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Running locally to test changes
 
-### `yarn build`
+```
+yarn start
+```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Making edits and pushing them to this repository
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Make your edits on your computer and run this command on the directory where this README is
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+git add .
+```
 
-### `yarn eject`
+or specify a specific folder/file that you want committed
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+git add folder
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Then, run this command to commit the changes
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+git commit -m "your comment here"
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Then, push using this command
 
-## Learn More
+```
+git push origin master
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Deploying changes to the website
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you have not already logged into the vsu firebase on your machine (AKA your first time doing this), run this command and login to the vsu gmail
+
+```
+firebase login
+```
+
+Then, do this command to compile/build this repository
+
+```
+yarn build
+```
+
+Finally, deploy the changes
+
+```
+firebase deploy
+```
