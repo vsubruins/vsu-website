@@ -51,9 +51,17 @@ export default function LandingInfo() {
           <Section>
             <SectionTitle>General Meetings</SectionTitle>
             <SectionText>
-              We hold general meetings every two weeks! Time and location vary,
-              so keep up with us on Facebook to find out more. <br />
-              Zoom link: zoom.us/link
+              Our first GM will be <strong>Week 1 Monday (9/27/2021)</strong>. We will be having both in-person and virtual options for those interested in attending 
+              and will be posting information about time and location in the upcoming weeks.
+              <br/>
+              <br/>
+              We hold general meetings every <strong>ODD</strong> week of the quarter on <strong> Wednesdays from 8-9 pm</strong>! Time and location vary,
+              so keep up with us on Facebook to find out more. 
+              <br/>
+              <br />
+              Location: TBA 
+              <br/>
+              Zoom link: TBA
             </SectionText>
           </Section>
         </Col>

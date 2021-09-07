@@ -11,6 +11,20 @@ import {
   PageContent,
 } from "../components/Page/Page";
 
+const ExtNavLink = styled("a")`
+  text-decoration: none;
+  color: black;
+  padding: 15px 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+
+  &:hover {
+    border-bottom: black 2px solid;
+    padding-bottom: 13px;
+  }
+`;
+
 export default function Membership() {
   return (
     <>
@@ -34,7 +48,8 @@ export default function Membership() {
             learning more about Vietnamese culture, history, or issues in the
             Vietnamese community. <br />
             <br /> There is no application or process necessary to become a
-            general member. Just drop by at any of our general meetings and get
+            general member. To let us gauge member interest for the 2021-2022 school year, please fill out the form linked at the bottom of the page. 
+            Just drop by at any of our general meetings and get
             involved! We do encourage you to subscribe to our newsletter to get
             weekly updates and general meeting dates. <br /> <br />
             VSU also has two chief projects, <strong>HOPE</strong> and{" "}
@@ -54,8 +69,16 @@ export default function Membership() {
             Michelle Pham 
             <br />
             <br />
-            Social Affairs Coordinator 2021-2022 <br /> michellepham789@gmail.com
+            Social Affairs Coordinator 2021-2022 <br /> vsu.socialaffars@gmail.com
           </PageText>
+
+          <ExtNavLink
+          target="_blank"
+          href="https://tinyurl.com/vsumembersignnup"
+        >
+          Interest Form
+        </ExtNavLink>
+
         </PageContent>
         <Footer />
       </PageWrapper>

@@ -44,7 +44,7 @@ export default function Navigation() {
         <NavLink to="/about">About</NavLink>
         <ExtNavLink
           target="_blank"
-          href="https://www.notion.so/8d852b6bc0b74005875b721c27d5314d?v=9bcc1a41ea67455fbf0a13eef46a0048"
+          href="https://www.facebook.com/vsubruins"
         >
           Events
         </ExtNavLink>
