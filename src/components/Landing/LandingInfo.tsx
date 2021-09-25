@@ -34,6 +34,20 @@ const SectionText = styled("p")`
   line-height: 1.5em;
 `;
 
+const ExtNavLink = styled("a")`
+  text-decoration: none;
+  color: black;
+  padding: 15px 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 50px;
+
+  &:hover {
+    border-bottom: black 2px solid;
+    padding-bottom: 13px;
+  }
+`;
+
 export default function LandingInfo() {
   return (
     <>
@@ -90,6 +104,12 @@ export default function LandingInfo() {
           </Section>
         </Col>
       </Wrapper>
+      <ExtNavLink
+          target="_blank"
+          href="https://tinyurl.com/vsumembersignnup"
+        >
+          Membership Form 
+        </ExtNavLink>
     </>
   );
 }

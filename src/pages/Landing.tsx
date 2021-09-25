@@ -16,6 +16,7 @@ export default function LandingPage() {
         <NavBar />
         <Cover />
         <LandingInfo />
+        <br/>
         <LandingSocialMedia />
         <Calendar />
         <Footer />

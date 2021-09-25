@@ -48,9 +48,8 @@ export default function Membership() {
             learning more about Vietnamese culture, history, or issues in the
             Vietnamese community. <br />
             <br /> There is no application or process necessary to become a
-            general member. To let us gauge member interest for the 2021-2022 school year, please fill out the form linked at the bottom of the page. 
-            Just drop by at any of our general meetings and get
-            involved! We do encourage you to subscribe to our newsletter to get
+            general member. If you'd like to be a VSU member for 2021-2022, please fill out the form linked at the bottom of the page. 
+            To get involved, just drop by at any of our general meetings and subscribe to our newsletter to get
             weekly updates and general meeting dates. <br /> <br />
             VSU also has two chief projects, <strong>HOPE</strong> and{" "}
             <strong>SEA CLEAR</strong>, which delve deeper into community
@@ -76,7 +75,7 @@ export default function Membership() {
           target="_blank"
           href="https://tinyurl.com/vsumembersignnup"
         >
-          Interest Form
+          Membership Form 
         </ExtNavLink>
 
         </PageContent>
