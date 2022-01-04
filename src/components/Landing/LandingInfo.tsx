@@ -72,7 +72,7 @@ export default function LandingInfo() {
               so keep up with us on Facebook to find out more. 
               <br/>
               <br/>
-              Zoom link: <a href = "https://tinyurl.com/vsuw22gm"> tinyurl.com/vsuw22gm</a>
+              {/* Zoom link: <a href = "https://tinyurl.com/vsuw22gm"> tinyurl.com/vsuw22gm</a> */}
             </SectionText>
           </Section>
         </Col>
