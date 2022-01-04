@@ -45,5 +45,19 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "All of these commands are run in terminal!",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsubruins/vsu-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsubruins/vsu-website/issues"
+  },
+  "homepage": "https://github.com/vsubruins/vsu-website#readme"
 }
