@@ -25,7 +25,7 @@ export default function About() {
             advocacy for the cultural, educational, political, and social
             welfare of the Vietnamese community at large.
           </PageText>
-          <PageHeader>Vision Statement (2020-2021)</PageHeader>
+          <PageHeader>Vision Statement (2021-2022)</PageHeader>
           <PageText>
             “The Vietnamese Student Union (VSU) at the University of California,
             Los Angeles strives to build a resilient and empowered community
@@ -43,7 +43,7 @@ export default function About() {
             immigrant experiences, we will continue to shed light on our unique
             Vietnamese culture and history both on and off campus.” <br />{" "}
             <br />
-            <strong>Est. September 17, 2020 | VSU Board 2020-2021</strong>
+            <strong>Est. September 17, 2021 | VSU Board 2021-2022</strong>
           </PageText>
           <PageHeader>History of VSU</PageHeader>
           <PageText>
