@@ -4,103 +4,96 @@ import React from "react";
 //
 // UPDATE EVERY YEAR WITH NEW BOARD PICTURES
 //
-import adela from "./staff/adela.jpg";
-import jason from "./staff/jason.jpg";
-import sela from "./staff/sela.jpg";
+import annie from "./staff/annie.jpg";
+import ashley from "./staff/ashley.jpg";
+import brandon from "./staff/brandon.jpg";
+import caroline from "./staff/caroline.jpg";
+import deena from "./staff/deena.jpg";
+import eric from "./staff/eric.jpg";
+import gena from "./staff/gena.jpg";
+import kaitlyn from "./staff/kaitlyn.jpg";
+import michelleN from "./staff/michelleN.jpg";
+import michelleP from "./staff/michelleP.jpg";
 import tiffany from "./staff/tiffany.jpg";
-import joanne from "./staff/joanne.jpeg";
-import jessica from "./staff/jessica.jpg";
-import henry from "./staff/henry.jpg";
-import christina from "./staff/christina.jpeg";
-import kristi from "./staff/kristi.jpg";
-import kelly from "./staff/kelly.jpg";
-import michelle from "./staff/michelle.jpeg";
-import viviando from "./staff/viviando.jpeg";
-import viviannguyen from "./staff/viviannguyen.jpg";
-import jimmy from "./staff/jimmy.jpeg";
+import vy from "./staff/vy.jpg";
 import jamie from "./staff/jamie.jpeg";
-import cindy from "./staff/cindy.jpeg";
+import cindy from "./staff/cindy.jpg";
 export var staffMembers = [
   {
     role: "President",
-    name: "Jason Vu",
-    picture: jason,
-  },
-  {
-    role: "Internal Vice President",
-    name: "Vivian Do",
-    picture: viviando,
-  },
-  {
-    role: "External Vice President",
-    name: "Kristi Mai",
-    picture: kristi,
-  },
-  {
-    role: "Administrative Coordinator",
-    name: "Henry Trinh",
-    picture: henry,
-  },
-  {
-    role: "Fiscal Coordinator",
-    name: "Joanne Luong",
-    picture: joanne,
-  },
-  {
-    role: "Retention Coordinator",
-    name: "Michelle Tran",
-    picture: michelle,
-  },
-  {
-    role: "Outreach Coordinator",
-    name: "Jessica Nguyen",
-    picture: jessica,
-  },
-  {
-    role: "Social Affairs Coordinator",
-    name: "Sela Tran",
-    picture: sela,
-  },
-  {
-    role: "Activities Coordinator",
-    name: "Tiffany Dong",
-    picture: tiffany,
-  },
-  {
-    role: "Community Advocacy Coordinator",
-    name: "Kelly Nguyen",
-    picture: kelly,
-  },
-  {
-    role: "Political Advocacy Coordinator",
-    name: "Jamie Vu",
-    picture: jamie,
-  },
-  {
-    role: "Education Coordinator",
     name: "Cindy Nguyen",
     picture: cindy,
   },
   {
+    role: "Internal Vice President",
+    name: "Tiffany Dong",
+    picture: tiffany,
+  },
+  {
+    role: "External Vice President",
+    name: "Eric Ngo",
+    picture: eric,
+  },
+  {
+    role: "Administrative Coordinator",
+    name: "Caroline Huynh",
+    picture: caroline,
+  },
+  {
+    role: "Fiscal Coordinator",
+    name: "Jamie Vu",
+    picture: jamie,
+  },
+  {
+    role: "Retention Coordinator",
+    name: "Annie Pham",
+    picture: annie,
+  },
+  {
+    role: "Outreach Coordinator",
+    name: "Kaitlyn Vu",
+    picture: kaitlyn,
+  },
+  {
+    role: "Social Affairs Coordinator",
+    name: "Michelle Pham",
+    picture: michelleP,
+  },
+  {
+    role: "Activities Coordinator",
+    name: "Ashley Cao",
+    picture: ashley,
+  },
+  {
+    role: "Community Advocacy Coordinator",
+    name: "Michelle Nguyen",
+    picture: michelleN,
+  },
+  {
+    role: "Political Advocacy Coordinator",
+    name: "Brandon Le",
+    picture: brandon,
+  },
+  {
+    role: "Education Coordinator",
+    name: "Vy Diep",
+    picture: vy,
+  },
+  {
     role: "Culture Coordinator",
-    name: "Christina Kieu",
-    picture: christina,
-  },
-  {
-    role: "Inter-Collegiate Council Representative",
-    name: "Adela Tran",
-    picture: adela,
+    name: "Gena Huynh",
+    picture: gena,
   },
   {
     role: "Public Relations Coordinator",
-    name: "Vivian Nguyen",
-    picture: viviannguyen,
+    name: "Deena Doan",
+    picture: deena,
   },
-  {
-    role: "Public Relations Coordinator",
-    name: "Jimmy Tran",
-    picture: jimmy,
-  },
+  // {
+  //   role: "Inter-Collegiate Council Representative",
+  //   name: "Adela Tran",
+  //   picture: adela,
+  // },
 ];
 
 // PHOTOS FOR GALLERY

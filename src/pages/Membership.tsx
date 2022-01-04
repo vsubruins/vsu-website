@@ -68,7 +68,7 @@ export default function Membership() {
             Michelle Pham 
             <br />
             <br />
-            Social Affairs Coordinator 2021-2022 <br /> vsu.socialaffars@gmail.com
+            Social Affairs Coordinator 2021-2022 <br /> vsusocialcoord@gmail.com
           </PageText>
 
           <ExtNavLink

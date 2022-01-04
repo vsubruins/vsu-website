@@ -65,17 +65,14 @@ export default function LandingInfo() {
           <Section>
             <SectionTitle>General Meetings</SectionTitle>
             <SectionText>
-              Our first GM will be <strong>Week 1 Monday (9/27/2021)</strong>. We will be having both in-person and virtual options for those interested in attending 
-              and will be posting information about time and location in the upcoming weeks.
+              Our first GM will be <strong>Week 1 Wednesday (1/12/2022)</strong>. Due to current UCLA guidelines, we will be having the meeting virtually.
               <br/>
               <br/>
-              We hold general meetings every <strong>ODD</strong> week of the quarter on <strong> Wednesdays from 8-9 pm</strong>! Time and location vary,
+              We hold general meetings <strong>every month</strong> on <strong> Wednesdays from 8-9 pm</strong>! Time and location vary,
               so keep up with us on Facebook to find out more. 
               <br/>
-              <br />
-              Location: TBA 
               <br/>
-              Zoom link: TBA
+              Zoom link: <a href = "https://tinyurl.com/vsuw22gm"> tinyurl.com/vsuw22gm</a>
             </SectionText>
           </Section>
         </Col>
