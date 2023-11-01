@@ -9,6 +9,10 @@ const Wrapper = styled("div")`
   display: flex;
   align-items: center;
   margin-left: 30px;
+
+  @media (max-width: 900px) {
+    margin-top: 100px;
+  }
 `;
 
 const NavLink = styled(Link)`

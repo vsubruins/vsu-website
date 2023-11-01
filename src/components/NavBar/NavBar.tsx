@@ -13,6 +13,10 @@ const NavWrapper = styled("div")`
   height: 76.32px;
   margin-top: 30px;
   margin-bottom: 30px;
+
+  @media (max-width: 900px) {
+    margin-bottom: 50px;
+  }
 `;
 
 
@@ -24,8 +28,8 @@ const LogoDiv = styled(Link)`
 const VSULogo = styled(Logo)`
   position: relative;
   left: -50%;
-  height: 6vw;
-  width: 6vw;
+  height: 6rem;
+  width: 6rem;
   margin-top: -10px;
 `;
 

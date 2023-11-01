@@ -2,15 +2,19 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled("div")`
-  display: flex;
+  display: grid;
   width: 85%;
   justify-content: space-between;
   margin-bottom: 70px;
   margin-top: 20px;
+
+  @media (min-width: 900px) {
+    grid-template-columns: repeat(2, 1fr)
+  }
 `;
 
 const Col = styled("div")`
-  width: 47%;
+  width: 95%;
   display: flex;
   flex-direction: column;
 `;
@@ -21,14 +25,14 @@ const Section = styled("div")`
 `;
 
 const SectionTitle = styled("p")`
-  font-size: 36px;
+  font-size: 2rem;
   font-weight: bold;
   margin-bottom: 0px;
 `;
 
 const SectionText = styled("p")`
   border-left: #e93739 4px solid;
-  padding-left: 50px;
+  padding-left: 20px;
   word-spacing: 0.2em;
   font-size: 15px;
   line-height: 1.5em;
@@ -40,7 +44,7 @@ const ExtNavLink = styled("a")`
   padding: 15px 8px;
   margin-left: 5px;
   margin-right: 5px;
-  font-size: 40px;
+  font-size: 35px;
 
   &:hover {
     border-bottom: black 2px solid;

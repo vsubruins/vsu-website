@@ -9,7 +9,7 @@ import WelcomeWeek from "./WelcomeWeek";
 const Layout = styled("div")`
   display: flex;
   width: 100%;
-  height: 370px; /*NORMAL HEIGHT IS 370! WITH WELCOME WEEK FLYER, HEIGHT IS 800! CHANGE BACK WHEN NEEDED*/
+  height: 20rem; /*NORMAL HEIGHT IS 370! WITH WELCOME WEEK FLYER, HEIGHT IS 800! CHANGE BACK WHEN NEEDED*/
 `;
 
 const SlideWrapper = styled("div")`
@@ -19,7 +19,7 @@ const SlideWrapper = styled("div")`
 `;
 
 const CoverWrapper = styled("div")`
-  width: 50%;
+  width: 70%;
   background: var(--lightyellow);
   display: flex;
   justify-content: center;
@@ -33,12 +33,13 @@ const Text = styled("div")`
   flex-direction: column;
   justify-content: center;
   letter-spacing: 0.1em;
-  font-size: 20px;
+  font-size: 1rem;
+  margin-left: 20px;
 `;
 
 const WelcomeText = styled("p")`
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2rem;
   margin-bottom: 5px;
   margin-top: 0px;
 `;
@@ -46,16 +47,16 @@ const WelcomeText = styled("p")`
 const Circle = styled(YellowCircle)`
   position: absolute;
   z-index: -5;
-  width: 170px;
-  left: 10px;
+  width: 10vw;
+  left: 1vw;
 `;
 
 const Triangle = styled(RedTriangle)`
   position: absolute;
   z-index: -5;
-  width: 250px;
-  right: -70px;
-  top: -70px;
+  width: 12vw;
+  right: 1vw;
+  top: -6rem;
 `;
 
 export default function Cover(props) {
