@@ -139,14 +139,12 @@ export default function HOPE() {
             professional growth, allowing them to be more prepared to take on
             leadership roles within and outside the HOPE space.
           </PageText>
-          {/*
           <ExtNavLink
             target="_blank"
             href="http://tinyurl.com/hope-internship"
           >
             HOPE Internship Application
           </ExtNavLink>
-          */}
           <PageHeader>Contact</PageHeader>
           <br />
           <ExtNavLink
