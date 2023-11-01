@@ -95,9 +95,10 @@ export var staffMembers = [
 
 // PHOTOS FOR GALLERY
 var photos = [];
-for (let i = 0; i <= 39; i++) {
+for (let i = 0; i <= 9; i++) {
+  photos.push(`/gallery/${i}.png`);
+}
+for (let i = 10; i <= 15; i++) {
   photos.push(`/gallery/${i}.jpg`);
 }
-photos.push(`/gallery/40.png`);
-photos.push(`/gallery/41.png`);
 export default photos;

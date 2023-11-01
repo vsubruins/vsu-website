@@ -24,6 +24,9 @@ const LogoDiv = styled(Link)`
 const VSULogo = styled(Logo)`
   position: relative;
   left: -50%;
+  height: 6vw;
+  width: 6vw;
+  margin-top: -10px;
 `;
 
 export default function NavBar() {

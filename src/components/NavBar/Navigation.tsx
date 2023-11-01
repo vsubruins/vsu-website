@@ -17,7 +17,7 @@ const NavLink = styled(Link)`
   padding: 0px 8px;
   margin-left: 5px;
   margin-right: 5px;
-  font-size: 1.5vw;
+  font-size: 16px;
 `;
 
 export default function Navigation() {

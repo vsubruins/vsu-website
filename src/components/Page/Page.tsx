@@ -21,13 +21,15 @@ export const PageHeader = styled("p")`
   padding-bottom: 20px;
   margin-bottom: 0px;
 
-  &::before {
-    content: "";
-    border-bottom: #e93739 solid 4px;
-    width: 110px;
-    z-index: 10;
-    padding-bottom: 45px;
-    position: absolute;
+  @media (min-width: 600px) {
+    &::before {
+      content: "";
+      border-bottom: #e93739 solid 4px;
+      width: 110px;
+      z-index: 10;
+      padding-bottom: 45px;
+      position: absolute;
+    }
   }
 `;
 

@@ -9,12 +9,13 @@ import WelcomeWeek from "./WelcomeWeek";
 const Layout = styled("div")`
   display: flex;
   width: 100%;
-  height: 800px; /*NORMAL HEIGHT IS 370! CHANGE BACK WHEN NEEDED*/
+  height: 370px; /*NORMAL HEIGHT IS 370! WITH WELCOME WEEK FLYER, HEIGHT IS 800! CHANGE BACK WHEN NEEDED*/
 `;
 
 const SlideWrapper = styled("div")`
   background: var(--blue);
   width: 50%;
+  z-index: -100;
 `;
 
 const CoverWrapper = styled("div")`
@@ -24,7 +25,7 @@ const CoverWrapper = styled("div")`
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: -10;
+  z-index: -100;
 `;
 
 const Text = styled("div")`
@@ -62,7 +63,7 @@ export default function Cover(props) {
     <>
       <Layout>
         <SlideWrapper>
-          <WelcomeWeek src={props.src}/>
+          {/* <WelcomeWeek src={props.src}/> UNCOMMENT THIS FOR WELCOME WEEK! */}
         </SlideWrapper>
         <CoverWrapper>
           <Circle />

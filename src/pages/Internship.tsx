@@ -52,12 +52,14 @@ export default function Internship() {
           >
             Syllabus
           </ExtNavLink>
+          {/* UNCOMMENT + UPDATE FOR WELCOME WEEK
           <ExtNavLink
             target="_blank"
             href="https://docs.google.com/forms/d/1G-74WTBn2_I36z8L1CCWtYXWFubHlxRtfeLmDkOmXuE/"
           >
             Internship Application
           </ExtNavLink>
+          */}
           <PageHeader>Contact</PageHeader>
           <PageText>
             Tyler Tu<br />

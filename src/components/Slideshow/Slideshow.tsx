@@ -5,7 +5,7 @@ import styled from "styled-components";
 const SlideshowWrapper = styled('div')`
     margin: 0 auto;
     overflow: hidden;
-    max-width: 1050px;
+    max-width: 60vw;
 `
 
 const SlideshowSlider = styled('div')`
@@ -14,7 +14,7 @@ const SlideshowSlider = styled('div')`
 `
 
 const Slide = styled.img`
-    height: 700px;
+    height: 40vw;
     width: 100%;
     display: inline-block;
 `
