@@ -15,11 +15,10 @@ const NavWrapper = styled("div")`
   margin-bottom: 30px;
 `;
 
+
 const LogoDiv = styled(Link)`
   position: absolute;
   left: 50%;
-  /* margin-top: 30px;
-  margin-bottom: 30px; */
 `;
 
 const VSULogo = styled(Logo)`

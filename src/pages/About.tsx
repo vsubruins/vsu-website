@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 
 import NavBar from "../components/NavBar/NavBar";
 import Footer from "../components/Footer/Footer";
@@ -25,25 +24,25 @@ export default function About() {
             advocacy for the cultural, educational, political, and social
             welfare of the Vietnamese community at large.
           </PageText>
-          <PageHeader>Vision Statement (2020-2021)</PageHeader>
+          <PageHeader>Vision Statement (2023-2024)</PageHeader>
           <PageText>
-            “The Vietnamese Student Union (VSU) at the University of California,
-            Los Angeles strives to build a resilient and empowered community
-            that is committed to solidarity with other marginalized communities
-            of color. <br /> <br /> Though physically separated by the pandemic,
-            we hope to create a safe and welcoming space where members may be
-            united virtually through community-conscious programs and projects
-            that serve our needs at this time. <br /> <br />
+            “The Vietnamese Student Union (VSU) at the University of
+            California, Los Angeles strives to build a resilient and empowered
+            community that is committed to solidarity with other marginalized
+            communities of color. <br /> <br /> We hope to create a safe and 
+            welcoming space where members may be united through community-conscious
+            programs and projects that serve our needs at this time. <br />{" "}
+            <br />
             In light of the current political climate, we aim to promote civic
             engagement by equipping members with the skills and resources
             necessary to advocate for our community’s needs while closely
             collaborating with other communities in the fight for equity and
             justice. <br /> <br />
             By embracing our cultural heritage as well as our refugee and
-            immigrant experiences, we will continue to shed light on our unique
-            Vietnamese culture and history both on and off campus.” <br />{" "}
-            <br />
-            <strong>Est. September 17, 2020 | VSU Board 2020-2021</strong>
+            immigrant experiences, we will continue to shed light on our
+            unique Vietnamese culture and history both on and off campus.”{" "}
+            <br />{" "}
+            <strong>Est. September 25, 2023 | VSU Board 2023-2024</strong>
           </PageText>
           <PageHeader>History of VSU</PageHeader>
           <PageText>
@@ -71,7 +70,7 @@ export default function About() {
             (VSU). <br /> <br />
             Thirty-seven years later, VSU continues to seek the preservation of
             the Vietnamese culture and heritage. This is done through cultural
-            events such as Cà Phê Ấm and Vietnamese Culture Night, two events
+            events such as <b>Cà Phê Ấm</b> and <b>Vietnamese Culture Night,</b> two events
             that allow students to showcase their talents through dance, art,
             and music. The Vietnamese Student Union also expands its services to
             cater to the educational, social, and political welfare of the
@@ -80,11 +79,11 @@ export default function About() {
             about the Fall of Saigon, each other’s stories, and the political
             implications of the war.
             <br /> <br /> VSU has two major projects that target the educational
-            needs of the Vietnamese and Southeast Asian community. The Higher
-            Opportunity Program for Education (HOPE) serves at-risk students in
+            needs of the Vietnamese and Southeast Asian community. The <b>Higher
+            Opportunity Program for Education (HOPE)</b> serves at-risk students in
             Westminster High School in Orange County and San Gabriel High School
-            in Los Angeles. Through the Southeast Asian Campus Learning
-            Education and Retention project (SEA CLEAR), VSU offers academic
+            in Los Angeles. Through the <b>Southeast Asian Campus Learning
+            Education and Retention project (SEA CLEAR),</b> VSU offers academic
             support services, holistic development, and wellness workshops. SEA
             CLEAR not only prioritizes academics and retention but also
             addresses issues and struggles relevant to the children of the

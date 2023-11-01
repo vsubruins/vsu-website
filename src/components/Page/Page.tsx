@@ -1,4 +1,4 @@
-import React from "react";
+//import React from "react";
 import styled from "styled-components";
 
 export const PageWrapper = styled("div")`
@@ -32,7 +32,7 @@ export const PageHeader = styled("p")`
 `;
 
 export const PageText = styled("p")`
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.5em;
 `;
 

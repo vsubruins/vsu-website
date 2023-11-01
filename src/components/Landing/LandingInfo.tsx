@@ -40,7 +40,7 @@ const ExtNavLink = styled("a")`
   padding: 15px 8px;
   margin-left: 5px;
   margin-right: 5px;
-  font-size: 50px;
+  font-size: 40px;
 
   &:hover {
     border-bottom: black 2px solid;
@@ -65,17 +65,11 @@ export default function LandingInfo() {
           <Section>
             <SectionTitle>General Meetings</SectionTitle>
             <SectionText>
-              Our first GM will be <strong>Week 1 Monday (9/27/2021)</strong>. We will be having both in-person and virtual options for those interested in attending 
-              and will be posting information about time and location in the upcoming weeks.
+              Our first GM will be <strong>Week 0 Tuesday (9/26/2023)</strong>.
               <br/>
               <br/>
-              We hold general meetings every <strong>ODD</strong> week of the quarter on <strong> Wednesdays from 8-9 pm</strong>! Time and location vary,
-              so keep up with us on Facebook to find out more. 
-              <br/>
-              <br />
-              Location: TBA 
-              <br/>
-              Zoom link: TBA
+              We hold general meetings on <strong>Week 1, 5, and 9, Thursdays from 7-8 pm</strong>! Location varies,
+              so keep up with us on our social media to find out more. 
             </SectionText>
           </Section>
         </Col>
@@ -86,9 +80,8 @@ export default function LandingInfo() {
               “The Vietnamese Student Union (VSU) at the University of
               California, Los Angeles strives to build a resilient and empowered
               community that is committed to solidarity with other marginalized
-              communities of color. <br /> <br /> Though physically separated by
-              the pandemic, we hope to create a safe and welcoming space where
-              members may be united virtually through community-conscious
+              communities of color. <br /> <br /> We hope to create a safe and 
+              welcoming space where members may be united through community-conscious
               programs and projects that serve our needs at this time. <br />{" "}
               <br />
               In light of the current political climate, we aim to promote civic
@@ -109,6 +102,12 @@ export default function LandingInfo() {
           href="https://tinyurl.com/vsumembersignnup"
         >
           Membership Form 
+        </ExtNavLink>
+      <ExtNavLink
+          target="_blank"
+          href="https://vsubruins.us7.list-manage.com/subscribe?u=826fb05e04f5075714d743cc0&id=91200819b2"
+        >
+          Newsletter Sign Up
         </ExtNavLink>
     </>
   );

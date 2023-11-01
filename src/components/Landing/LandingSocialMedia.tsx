@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 import SocialMediaIcons from "../SocialMediaIcons";
 
-import { ReactComponent as YellowCircle } from "../../assets/yellowcircle.svg";
-import { ReactComponent as BlueTriangle } from "../../assets/bluetriangle.svg";
+import { ReactComponent as YellowCircle } from "../../assets/shapes/yellowcircle.svg";
+import { ReactComponent as BlueTriangle } from "../../assets/shapes/bluetriangle.svg";
 
 const Wrapper = styled("div")`
   display: flex;

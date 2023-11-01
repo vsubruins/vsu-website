@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1080" height="1080" viewBox="0 0 1080 1080" xml:space="preserve">
+<circle cx="540" cy="540" r="540" fill="#62d877" />
+<g transform="matrix(1.3 0 0 1.3 540 540)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke"  transform=" translate(-208.5, -256.12)" d="M 171.274 344.942 L 245.364 344.942 L 245.364 512.238 L 171.274 512.238 L 171.274 344.942 z M 0 173.468 L 126.068 173.468 L 36.446 88.02799999999999 L 86.037 37.04299999999999 L 171.476 124.87199999999999 L 171.476 0 L 245.562 0 L 245.562 124.872 L 331 37.243 L 380.552 88.02799999999999 L 290.97200000000004 173.26799999999997 L 417 173.26799999999997 L 417 243.76999999999998 L 290.252 243.76999999999998 L 380.435 331.399 L 331 381.192 L 208.519 258.11 L 86.037 381.192 L 36.446000000000005 331.601 L 126.66400000000002 243.97 L 0 243.97 L 0 173.46800000000002 z" stroke-linecap="round" />
+</g>
+</svg>

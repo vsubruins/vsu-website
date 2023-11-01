@@ -9,6 +9,9 @@ import SEACLEAR from "./pages/SEACLEAR";
 import Staff from "./pages/Staff";
 import Gallery from "./pages/Gallery";
 import Page404 from "./pages/404";
+import CultureNight from "./pages/CultureNight";
+import EducationPrograms from "./pages/EducationPrograms";
+import Internship from "./pages/Internship";
 
 export default function App() {
   return (
@@ -21,7 +24,10 @@ export default function App() {
           <Route path="/hope" component={HOPE}></Route>
           <Route path="/seaclear" component={SEACLEAR}></Route>
           <Route path="/staff" component={Staff}></Route>
-          <Route path="/gallery" component={Gallery} />
+          <Route path="/gallery" component={Gallery}></Route>
+          <Route path="/culturenight" component={CultureNight}></Route>
+          <Route path="/educationprograms" component={EducationPrograms}></Route>
+          <Route path="/internship" component={Internship}></Route>
           <Route component={Page404}></Route>
         </Switch>
       </Router>

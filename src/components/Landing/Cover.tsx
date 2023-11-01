@@ -1,13 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 
-import { ReactComponent as YellowCircle } from "../../assets/yellowcircle.svg";
-import { ReactComponent as RedTriangle } from "../../assets/redtriangle.svg";
+import { ReactComponent as YellowCircle } from "../../assets/shapes/yellowcircle.svg";
+import { ReactComponent as RedTriangle } from "../../assets/shapes/redtriangle.svg";
+
+import WelcomeWeek from "./WelcomeWeek";
 
 const Layout = styled("div")`
   display: flex;
   width: 100%;
-  height: 370px;
+  height: 800px; /*NORMAL HEIGHT IS 370! CHANGE BACK WHEN NEEDED*/
 `;
 
 const SlideWrapper = styled("div")`
@@ -55,11 +57,13 @@ const Triangle = styled(RedTriangle)`
   top: -70px;
 `;
 
-export default function Cover() {
+export default function Cover(props) {
   return (
     <>
       <Layout>
-        <SlideWrapper />
+        <SlideWrapper>
+          <WelcomeWeek src={props.src}/>
+        </SlideWrapper>
         <CoverWrapper>
           <Circle />
           <Triangle />
