@@ -12,6 +12,8 @@ import Page404 from "./pages/404";
 import CultureNight from "./pages/CultureNight";
 import EducationPrograms from "./pages/EducationPrograms";
 import Internship from "./pages/Internship";
+import Bigs from "./pages/Bigs";
+import Fams from "./pages/Fams";
 
 export default function App() {
   return (
@@ -25,6 +27,8 @@ export default function App() {
           <Route path="/seaclear" component={SEACLEAR}></Route>
           <Route path="/staff" component={Staff}></Route>
           <Route path="/gallery" component={Gallery}></Route>
+          <Route path="/MeetTheBigs" component={Bigs}></Route>
+          <Route path="/JoinAFam" component={Fams}></Route>
           <Route path="/culturenight" component={CultureNight}></Route>
           <Route path="/educationprograms" component={EducationPrograms}></Route>
           <Route path="/internship" component={Internship}></Route>
