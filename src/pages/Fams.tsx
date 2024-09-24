@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useRef } from "react";
+import { Button } from '@mui/material';
 
 import NavBar from "../components/NavBar/NavBar";
 import Footer from "../components/Footer/Footer";
@@ -47,7 +48,23 @@ const BackgroundImage: React.CSSProperties = {
     zIndex: '-1'
 };
 
+const ApplyButton = {
+    display: 'flex',
+    justifyContent: 'center',
+    gap: '40px',
+    padding: '10px',
+    fontSize: '60px',
+    fontFamily: '"Archivo Black", sans-serif',
+};
+
 export default function Fams() {
+
+    const famSystemRef = useRef(null);
+    const scrollToSection = () => {
+        if (famSystemRef.current) {
+            famSystemRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
     return (
         <>
             <PageWrapper>
@@ -63,10 +80,47 @@ export default function Fams() {
                     <React.StrictMode>
                         <CountdownTimer />
                     </React.StrictMode>
+
+                    <div style={ApplyButton} >
+                        <Button
+                            variant="contained"
+                            size="large"
+                            onClick={scrollToSection}
+                            sx={{
+                                width: 225,
+                                textTransform: 'none',
+                                fontFamily: 'Kumbh Sans',
+                                fontWeight: 'bold',
+                                fontSize: '18px',
+                                marginBottom: '30vh'
+                            }}>
+
+                            Fam System Info
+                        </Button>
+
+
+                        <Button
+                            variant="contained"
+                            size="large"
+                            onClick={scrollToSection}
+                            href="/MeetTheBigs"
+                            sx={{
+                                width: 225,
+                                textTransform: 'none',
+                                fontFamily: 'Kumbh Sans',
+                                fontWeight: 'bold',
+                                fontSize: '18px',
+                                marginBottom: '30vh'
+                            }}>
+
+                            Meet the Bigs!
+                        </Button>
+                    </div>
+
                         
                     {/* </div> */}
 
-                    <PageHeader>VSU Fam System!</PageHeader>
+                    <PageHeader ref={famSystemRef}>VSU Fam System!</PageHeader>
                     <PageText>
                         VSU is excited to announce our first-ever fam-system for the 2024-2025 academic
                         year! We highly encourage everyone to sign up to join a fam, where you will meet

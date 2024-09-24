@@ -5,6 +5,9 @@ import ButtonBase from '@mui/material/ButtonBase';
 import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
+import {
+    FamName
+} from "../Page/Page";
 
 // Styled components
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
@@ -17,7 +20,7 @@ const ImageButton = styled(ButtonBase)(({ theme }) => ({
     '&:hover, &.Mui-focusVisible': {
         zIndex: 1,
         '& .MuiImageBackdrop-root': {
-            opacity: 0.15,
+            opacity: 0.35,
         },
         '& .MuiImageMarked-root': {
             opacity: 0,
@@ -87,33 +90,23 @@ const StylizedButton = ({ buttons, onButtonClick }) => {
     };
 
     return (
-        <Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 300, width: '100%' }}>
+        <Box sx={{ display: 'flex', flexWrap: 'wrap', minWidth: 0, width: '100%' }}>
             {buttons.map((button, index) => (
                 <ImageButton
                     focusRipple
                     key={index}
                     style={{
-                        width: button.width || '30%',
+                        width: button.width || '100%',
                     }}
                     onClick={(event) => handleClick(event, button)}
                 >
                     <ImageSrc style={{ backgroundImage: `url(${button.imageUrl})` }} />
                     <ImageBackdrop className="MuiImageBackdrop-root" />
                     <Image>
-                        <Typography
-                            component="span"
-                            variant="subtitle1"
-                            color="inherit"
-                            sx={(theme) => ({
-                                position: 'relative',
-                                p: 4,
-                                pt: 2,
-                                pb: `calc(${theme.spacing(1)} + 6px)`,
-                            })}
-                        >
+                        <FamName style={{
+                            fontFamily: 'Lexend'}}>
                             {button.title}
-                            <ImageMarked className="MuiImageMarked-root" />
-                        </Typography>
+                        </FamName>
                     </Image>
                 </ImageButton>
             ))}

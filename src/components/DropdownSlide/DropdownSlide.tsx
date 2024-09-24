@@ -13,6 +13,7 @@ const DropdownSlide = ({ slides, videoLink }) => {
         autoplay={false}
         onChange={function noRefCheck() { }}
         onStartChange={function noRefCheck() { }}
+        easing={'ease'}
         transitionDuration={300}>
         {slides.map((imageUrl, index) => (
             <div className="each-slide-effect" key={index}>
@@ -22,7 +23,15 @@ const DropdownSlide = ({ slides, videoLink }) => {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
                 }}>
-                    <span>{`Slide ${index + 1}`}</span>
+                    <span style={{
+                        position: 'relative',
+                        textShadow: '1px 1px 1px rgba(1, 1, 1, 0.7)',
+                        color: 'white',
+                        fontWeight: 'bold',
+                        fontSize: '17px',
+                        left: '10px',
+                        top: '10px'
+                    }}>{`Slide ${index + 1}`}</span>
                 </div>
             </div>
         ))}

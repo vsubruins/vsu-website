@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { Button } from '@mui/material';
 
 
@@ -92,6 +92,8 @@ const CountdownToDate: React.FC = () => {
         fontFamily: '"Kumbh Sans", sans-serif',
     };
 
+
+
     return (
         <div>
             <h1 style={{ textAlign: 'center', color: 'white', fontSize: '50px', marginTop: '12.5vh' }}>Get Excited—Littles' Application Opens Soon!</h1>
@@ -133,23 +135,6 @@ const CountdownToDate: React.FC = () => {
                     }}>
 
                     Apply to Join a Fam!
-                </Button>
-            </div>
-            <div style={ApplyButton} >
-                <Button
-                    variant="contained"
-                    href="https://forms.gle/azuSNs4W8n2jpQSr7"
-                    size="large"
-                    sx={{
-                        width: 400,
-                        textTransform: 'none',
-                        fontFamily: 'Kumbh Sans',
-                        fontWeight: 'bold',
-                        fontSize: '18px',
-                        marginBottom: '30vh'
-                    }}>
-
-                    Learn About the Fam System
                 </Button>
             </div>
         </div>
