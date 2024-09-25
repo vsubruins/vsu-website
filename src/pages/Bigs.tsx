@@ -152,8 +152,8 @@ const slides = [
     [johnpham, stevepham],                  // 7
     [kevinespinas, hyunkim],                // 8
     [briannatran, mikeychoi],               // 9
-    [BgPic, BgPic],         // 10
-    [BgPic, BgPic],         // 11
+    [jacquenguyen, vanessatran],            // 10
+    [sophianguyen, katedinh],               // 11
     [BgPic, BgPic],         // 12
     [BgPic, BgPic],         // 13
     [BgPic, BgPic],         // 14

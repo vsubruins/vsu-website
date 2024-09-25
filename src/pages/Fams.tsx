@@ -99,7 +99,7 @@ export default function Fams() {
                         </Button>
 
 
-                        <Button
+                        {/* <Button
                             variant="contained"
                             size="large"
                             onClick={scrollToSection}
@@ -114,7 +114,7 @@ export default function Fams() {
                             }}>
 
                             Meet the Bigs!
-                        </Button>
+                        </Button> */}
                     </div>
 
                         
