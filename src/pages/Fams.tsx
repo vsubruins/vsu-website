@@ -91,7 +91,7 @@ export default function Fams() {
                                 textTransform: 'none',
                                 fontFamily: 'Kumbh Sans',
                                 fontWeight: 'bold',
-                                fontSize: '18px',
+                                fontSize: '27%',
                                 marginBottom: '30vh'
                             }}>
 
@@ -99,7 +99,7 @@ export default function Fams() {
                         </Button>
 
 
-                        {/* <Button
+                        <Button
                             variant="contained"
                             size="large"
                             onClick={scrollToSection}
@@ -109,12 +109,12 @@ export default function Fams() {
                                 textTransform: 'none',
                                 fontFamily: 'Kumbh Sans',
                                 fontWeight: 'bold',
-                                fontSize: '18px',
+                                fontSize: '27%',
                                 marginBottom: '30vh'
                             }}>
 
                             Meet the Bigs!
-                        </Button> */}
+                        </Button>
                     </div>
 
                         

@@ -77,7 +77,7 @@ export const DropdownMenu = styled.div`
   flex-basis: 15%; /* Takes up 45% of the container's width */
   flex-grow: 0; /* Prevents growing */
   flex-shrink: 0; /* Prevents shrinking */
-  margin: 0.1%; /* Adjust margin for spacing */
+  margin: .1%; /* Adjust margin for spacing */
   box-sizing: border-box; /* Ensures padding and border are included in width */
 `;
 
@@ -150,7 +150,6 @@ export const CloseButton = styled.button`
 `;
 
 export const FamName = styled("p")`
-  font-size: 16px;
   line-height: 1.5em;
   font-weight: bold; /* Makes the text bold */
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a drop shadow */

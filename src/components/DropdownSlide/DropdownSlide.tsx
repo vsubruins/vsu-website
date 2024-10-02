@@ -23,15 +23,6 @@ const DropdownSlide = ({ slides, videoLink }) => {
                     backgroundSize: 'cover',
                     backgroundPosition: 'center'
                 }}>
-                    <span style={{
-                        position: 'relative',
-                        textShadow: '1px 1px 1px rgba(1, 1, 1, 0.7)',
-                        color: 'white',
-                        fontWeight: 'bold',
-                        fontSize: '17px',
-                        left: '10px',
-                        top: '10px'
-                    }}>{`Slide ${index + 1}`}</span>
                 </div>
             </div>
         ))}

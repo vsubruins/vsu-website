@@ -96,7 +96,7 @@ const CountdownToDate: React.FC = () => {
 
     return (
         <div>
-            <h1 style={{ textAlign: 'center', color: 'white', fontSize: '50px', marginTop: '12.5vh' }}>Get Excited—Littles' Application Opens Soon!</h1>
+            <h1 style={{ textAlign: 'center', color: 'white', fontSize: '50px', marginTop: '12.5vh' }}>Littles' Application is Closed—All Spots Full!</h1>
             <div style={timerStyle}>
                 <div style={segmentStyle}>
                     <span>{timeLeft.days}</span>
@@ -118,7 +118,7 @@ const CountdownToDate: React.FC = () => {
             <div style={ApplyButton} >
                 <Button
                     variant="contained"
-                    disabled={!isCountdownComplete}
+                    disabled
                     href="https://forms.gle/azuSNs4W8n2jpQSr7"
                     size="large"
                     sx={{
@@ -126,7 +126,7 @@ const CountdownToDate: React.FC = () => {
                         textTransform: 'none',
                         fontFamily: 'Kumbh Sans',
                         fontWeight: 'bold',
-                        fontSize: '18px',
+                        fontSize: '35%',
                         "&.Mui-disabled": {
                             background: "#888888",
                             opacity: '.7',

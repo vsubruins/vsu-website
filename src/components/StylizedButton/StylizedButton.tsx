@@ -104,7 +104,9 @@ const StylizedButton = ({ buttons, onButtonClick }) => {
                     <ImageBackdrop className="MuiImageBackdrop-root" />
                     <Image>
                         <FamName style={{
-                            fontFamily: 'Lexend'}}>
+                            fontFamily: 'Lexend',
+                            fontSize: '15px'
+                            }}>
                             {button.title}
                         </FamName>
                     </Image>

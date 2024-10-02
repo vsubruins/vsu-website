@@ -32,10 +32,10 @@ export default function Navigation() {
   }
 
   const aboutList = [
-    {
-      to:"/staff",
-      name:"Staff"
-    }
+    // {
+    //   to:"/staff",
+    //   name:"Staff"
+    // }
   ]
 
   const involvementHeader = {
@@ -82,8 +82,7 @@ export default function Navigation() {
         <DropdownMenu header={aboutHeader} list={aboutList} />
         <DropdownMenu header={involvementHeader} list={involvementList} />
         <DropdownMenu header={programsHeader} list={programsList} />
-        <NavLink to="/gallery">Gallery</NavLink>
-        {/* <NavLink to="/MeetTheBigs">Meet The Bigs!</NavLink> */}
+        <NavLink to="/MeetTheBigs">Meet The Bigs!</NavLink>
         <NavLink to="/JoinAFam">Join A Fam!</NavLink>
 
         {/*
