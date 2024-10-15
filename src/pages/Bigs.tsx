@@ -11,57 +11,57 @@ import DropdownSlide from "../components/DropdownSlide/DropdownSlide";
 import BgPic from "../assets/bg.png"
 import pfp from "../assets/famprofile.jpeg"
 
-import amyduong         from "../assets/bigsslides/amyduong.png"
-import andrewnguyen     from "../assets/bigsslides/andrewnguyen.png"
-import andrewtang       from "../assets/bigsslides/andrewtang.png"
-import anthonypham      from "../assets/bigsslides/anthonypham.png"
-import ashleythai       from "../assets/bigsslides/ashleythai.png"
-import briananguyen     from "../assets/bigsslides/briananguyen.png"
-import briannatran      from "../assets/bigsslides/briannatran.png"
-import chrisle          from "../assets/bigsslides/chrisle.png"
-import daile            from "../assets/bigsslides/daile.png"
-import damonle          from "../assets/bigsslides/damonle.png"
-import danpham          from "../assets/bigsslides/danpham.png"
-import ericdien         from "../assets/bigsslides/ericdien.png"
-import ethandao         from "../assets/bigsslides/ethandao.png"
-import hiennguyen       from "../assets/bigsslides/hiennguyen.png"
-import howardtrinh      from "../assets/bigsslides/howardtrinh.png"
-import hyunkim          from "../assets/bigsslides/hyunkim.png"
-import jaclynnguyen     from "../assets/bigsslides/jaclynnguyen.png"
-import jacquenguyen     from "../assets/bigsslides/jacquenguyen.png"
-import jamespham        from "../assets/bigsslides/jamespham.png"
-import jennytran        from "../assets/bigsslides/jennytran.png"
-import jessicale        from "../assets/bigsslides/jessicale.png"
-import johnpham         from "../assets/bigsslides/johnpham.png"
-import katedinh         from "../assets/bigsslides/katedinh.png"
-import katiedoan        from "../assets/bigsslides/katiedoan.png"
-import kellytang        from "../assets/bigsslides/kellytang.png"
-import kellytran        from "../assets/bigsslides/kellytran.png"
-import kevinespinas     from "../assets/bigsslides/kevinespinas.png"
-import kienatan         from "../assets/bigsslides/kienatan.png"
-import kimtran          from "../assets/bigsslides/kimtran.png"
-import lancegiang       from "../assets/bigsslides/lancegiang.png"
-import lilliangonick    from "../assets/bigsslides/lilliangonick.png"
-import madelinemai      from "../assets/bigsslides/madelinemai.png"
-import melodypho        from "../assets/bigsslides/melodypho.png"
-import mikeychoi        from "../assets/bigsslides/mikeychoi.jpg"
-import mythuanhahoang   from "../assets/bigsslides/mythuanhahoang.png"
-import nathantran       from "../assets/bigsslides/nathantran.png"
-import nicolehatton     from "../assets/bigsslides/nicolehatton.png"
-import phile            from "../assets/bigsslides/phile.png"
-import prestonpham      from "../assets/bigsslides/prestonpham.png"
-import racheltang       from "../assets/bigsslides/racheltang.png"
-import rorykien         from "../assets/bigsslides/rorykien.png"
-import ryanquach        from "../assets/bigsslides/ryanquach.png"
-import sammynguyen      from "../assets/bigsslides/sammynguyen.png"
-import selinavuong      from "../assets/bigsslides/selinavuong.png"
-import shawnnguyen      from "../assets/bigsslides/shawnnguyen.png"
-import sophianguyen     from "../assets/bigsslides/sophianguyen.png"
-import stevenhuynh      from "../assets/bigsslides/stevenhuynh.png"
-import stevepham        from "../assets/bigsslides/stevepham.png"
-import tayshonkim       from "../assets/bigsslides/tayshonkim.png"
-import vanessatran      from "../assets/bigsslides/vanessatran.png"
-import vincenttran      from "../assets/bigsslides/vincenttran.png"
+import amyduong         from "../assets/bigsslides/amyduong.jpeg"
+import andrewnguyen     from "../assets/bigsslides/andrewnguyen.jpeg"
+import andrewtang       from "../assets/bigsslides/andrewtang.jpeg"
+import anthonypham      from "../assets/bigsslides/anthonypham.jpeg"
+import ashleythai       from "../assets/bigsslides/ashleythai.jpeg"
+import briananguyen     from "../assets/bigsslides/briananguyen.jpeg"
+import briannatran      from "../assets/bigsslides/briannatran.jpeg"
+import chrisle          from "../assets/bigsslides/chrisle.jpeg"
+import daile            from "../assets/bigsslides/daile.jpeg"
+import damonle          from "../assets/bigsslides/damonle.jpeg"
+import danpham          from "../assets/bigsslides/danpham.jpeg"
+import ericdien         from "../assets/bigsslides/ericdien.jpeg"
+import ethandao         from "../assets/bigsslides/ethandao.jpeg"
+import hiennguyen       from "../assets/bigsslides/hiennguyen.jpeg"
+import howardtrinh      from "../assets/bigsslides/howardtrinh.jpeg"
+import hyunkim          from "../assets/bigsslides/hyunkim.jpeg"
+import jaclynnguyen     from "../assets/bigsslides/jaclynnguyen.jpeg"
+import jacquenguyen     from "../assets/bigsslides/jacquenguyen.jpeg"
+import jamespham        from "../assets/bigsslides/jamespham.jpeg"
+import jennytran        from "../assets/bigsslides/jennytran.jpeg"
+import jessicale        from "../assets/bigsslides/jessicale.jpeg"
+import johnpham         from "../assets/bigsslides/johnpham.jpeg"
+import katedinh         from "../assets/bigsslides/katedinh.jpeg"
+import katiedoan        from "../assets/bigsslides/katiedoan.jpeg"
+import kellytang        from "../assets/bigsslides/kellytang.jpeg"
+import kellytran        from "../assets/bigsslides/kellytran.jpeg"
+import kevinespinas     from "../assets/bigsslides/kevinespinas.jpeg"
+import kienatan         from "../assets/bigsslides/kienatan.jpeg"
+import kimtran          from "../assets/bigsslides/kimtran.jpeg"
+import lancegiang       from "../assets/bigsslides/lancegiang.jpeg"
+import lilliangonick    from "../assets/bigsslides/lilliangonick.jpeg"
+import madelinemai      from "../assets/bigsslides/madelinemai.jpeg"
+import melodypho        from "../assets/bigsslides/melodypho.jpeg"
+import mikeychoi        from "../assets/bigsslides/mikeychoi.jpeg"
+import mythuanhahoang   from "../assets/bigsslides/mythuanhahoang.jpeg"
+import nathantran       from "../assets/bigsslides/nathantran.jpeg"
+import nicolehatton     from "../assets/bigsslides/nicolehatton.jpeg"
+import phile            from "../assets/bigsslides/phile.jpeg"
+import prestonpham      from "../assets/bigsslides/prestonpham.jpeg"
+import racheltang       from "../assets/bigsslides/racheltang.jpeg"
+import rorykien         from "../assets/bigsslides/rorykien.jpeg"
+import ryanquach        from "../assets/bigsslides/ryanquach.jpeg"
+import sammynguyen      from "../assets/bigsslides/sammynguyen.jpeg"
+import selinavuong      from "../assets/bigsslides/selinavuong.jpeg"
+import shawnnguyen      from "../assets/bigsslides/shawnnguyen.jpeg"
+import sophianguyen     from "../assets/bigsslides/sophianguyen.jpeg"
+import stevenhuynh      from "../assets/bigsslides/stevenhuynh.jpeg"
+import stevepham        from "../assets/bigsslides/stevepham.jpeg"
+import tayshonkim       from "../assets/bigsslides/tayshonkim.jpeg"
+import vanessatran      from "../assets/bigsslides/vanessatran.jpeg"
+import vincenttran      from "../assets/bigsslides/vincenttran.jpeg"
 
 import andrewandrew     from "../assets/cobigphoto/andrewandrew.jpeg"
 import brianaryan       from "../assets/cobigphoto/brianaryan.jpeg"
@@ -90,59 +90,32 @@ import steventayshon    from "../assets/cobigphoto/steventayshon.jpeg"
 import stevejohn        from "../assets/cobigphoto/stevejohn.jpeg"
 import vincentkiena     from "../assets/cobigphoto/vincentkiena.jpeg"
 
-import andrewandrewtitle    from "../assets/famsslides/andrewandrew.png"
-import brianaryantitle      from "../assets/famsslides/brianaryan.png"
-import dailancetitle        from "../assets/famsslides/dailance.png"
-import damonamytitle        from "../assets/famsslides/damonamy.png"
-import dankatietitle        from "../assets/famsslides/dankatie.png"
-import ericmelodytitle      from "../assets/famsslides/ericmelody.png"
-import ethanjessicatitle    from "../assets/famsslides/ethanjessica.png"
-import hyunkevintitle       from "../assets/famsslides/hyunkevin.png"
-import jacquevanessatitle   from "../assets/famsslides/jacquevanessa.png"
-import jennykellytitle      from "../assets/famsslides/jennykelly.png"
-import katesophiatitle      from "../assets/famsslides/katesophia.png"
-import kimashleytitle       from "../assets/famsslides/kimashley.png"
-import kellyhientitle       from "../assets/famsslides/kellyhien.png"
-import madelineanthonytitle from "../assets/famsslides/madelineanthony.png"
-import mikeybriannatitle    from "../assets/famsslides/mikeybrianna.png"
-import mythuanhowardtitle   from "../assets/famsslides/mythuanhoward.png"
-import nicolechristitle     from "../assets/famsslides/nicolechris.png"
-import phiracheltitle       from "../assets/famsslides/phirachel.png"
-import prestondanieltitle   from "../assets/famsslides/prestondaniel.png"
-import roryjamestitle       from "../assets/famsslides/roryjames.png"
-import sammyjaclyntitle     from "../assets/famsslides/sammyjaclyn.png"
-import selinanathantitle    from "../assets/famsslides/selinanathan.png"
-import shawnlilliantitle    from "../assets/famsslides/shawnlillian.png"
-import steventayshontitle   from "../assets/famsslides/steventayshon.png"
-import stevejohntitle       from "../assets/famsslides/stevejohn.png"
-import vincentkienatitle from "../assets/famsslides/vincentkiena.png"
-
-import andrewandrewbio from "../assets/bioslides/andrewandrew.png"
-import brianaryanbio from "../assets/bioslides/brianaryan.png"
-import dailancebio from "../assets/bioslides/dailance.png"
-import damonamybio from "../assets/bioslides/damonamy.png"
-import dankatiebio from "../assets/bioslides/dankatie.png"
-import ericmelodybio from "../assets/bioslides/ericmelody.png"
-import ethanjessicabio from "../assets/bioslides/ethanjessica.png"
-import hyunkevinbio from "../assets/bioslides/hyunkevin.png"
-import jacquevanessabio from "../assets/bioslides/jacquevanessa.png"
-import jennykellybio from "../assets/bioslides/jennykelly.png"
-import katesophiabio from "../assets/bioslides/katesophia.png"
-import kimashleybio from "../assets/bioslides/kimashley.png"
-import kellyhienbio from "../assets/bioslides/kellyhien.png"
-import madelineanthonybio from "../assets/bioslides/madelineanthony.png"
-import mikeybriannabio from "../assets/bioslides/mikeybrianna.png"
-import mythuanhowardbio from "../assets/bioslides/mythuanhoward.png"
-import nicolechrisbio from "../assets/bioslides/nicolechris.png"
-import phirachelbio from "../assets/bioslides/phirachel.png"
-import prestondanielbio from "../assets/bioslides/prestondaniel.png"
-import roryjamesbio from "../assets/bioslides/roryjames.png"
-import sammyjaclynbio from "../assets/bioslides/sammyjaclyn.png"
-import selinanathanbio from "../assets/bioslides/selinanathan.png"
-import shawnlillianbio from "../assets/bioslides/shawnlillian.png"
-import steventayshonbio from "../assets/bioslides/steventayshon.png"
-import stevejohnbio from "../assets/bioslides/stevejohn.png"
-import vincentkienabio from "../assets/bioslides/vincentkiena.png"
+import andrewandrewtitle    from "../assets/famsslides/andrewandrew.jpeg"
+import brianaryantitle      from "../assets/famsslides/brianaryan.jpeg"
+import dailancetitle        from "../assets/famsslides/dailance.jpeg"
+import damonamytitle        from "../assets/famsslides/damonamy.jpeg"
+import dankatietitle        from "../assets/famsslides/dankatie.jpeg"
+import ericmelodytitle      from "../assets/famsslides/ericmelody.jpeg"
+import ethanjessicatitle    from "../assets/famsslides/ethanjessica.jpeg"
+import hyunkevintitle       from "../assets/famsslides/hyunkevin.jpeg"
+import jacquevanessatitle   from "../assets/famsslides/jacquevanessa.jpeg"
+import jennykellytitle      from "../assets/famsslides/jennykelly.jpeg"
+import katesophiatitle      from "../assets/famsslides/katesophia.jpeg"
+import kimashleytitle       from "../assets/famsslides/kimashley.jpeg"
+import kellyhientitle       from "../assets/famsslides/kellyhien.jpeg"
+import madelineanthonytitle from "../assets/famsslides/madelineanthony.jpeg"
+import mikeybriannatitle    from "../assets/famsslides/mikeybrianna.jpeg"
+import mythuanhowardtitle   from "../assets/famsslides/mythuanhoward.jpeg"
+import nicolechristitle     from "../assets/famsslides/nicolechris.jpeg"
+import phiracheltitle       from "../assets/famsslides/phirachel.jpeg"
+import prestondanieltitle   from "../assets/famsslides/prestondaniel.jpeg"
+import roryjamestitle       from "../assets/famsslides/roryjames.jpeg"
+import sammyjaclyntitle     from "../assets/famsslides/sammyjaclyn.jpeg"
+import selinanathantitle    from "../assets/famsslides/selinanathan.jpeg"
+import shawnlilliantitle    from "../assets/famsslides/shawnlillian.jpeg"
+import steventayshontitle   from "../assets/famsslides/steventayshon.jpeg"
+import stevejohntitle       from "../assets/famsslides/stevejohn.jpeg"
+import vincentkienatitle from "../assets/famsslides/vincentkiena.jpeg"
 
 import {
     PageTitle,
@@ -221,32 +194,32 @@ const buttons = [
 ];
 
 const slides = [
-    [dankatietitle, dankatiebio, danpham, katiedoan],                   // 0
-    [ericmelodytitle, ericmelodybio, ericdien, melodypho],                  // 1
-    [madelineanthonytitle, madelineanthonybio, madelinemai, anthonypham],             // 2
-    [sammyjaclyntitle, sammyjaclynbio, sammynguyen, jaclynnguyen],            // 3
-    [brianaryantitle, brianaryanbio, ryanquach, briananguyen],              // 4
-    [prestondanieltitle, prestondanielbio, BgPic, prestonpham],                   // 5
-    [ethanjessicatitle, ethanjessicabio, jessicale, ethandao],                  // 6
-    [stevejohntitle, stevejohnbio, johnpham, stevepham],                  // 7
-    [hyunkevintitle, hyunkevinbio, kevinespinas, hyunkim],                // 8
-    [mikeybriannatitle, mikeybriannabio, briannatran, mikeychoi],               // 9
-    [jacquevanessatitle, jacquevanessabio, jacquenguyen, vanessatran],            // 10
-    [katesophiatitle, katesophiabio, sophianguyen, katedinh],               // 11
-    [kimashleytitle, kimashleybio, ashleythai, kimtran],                  // 12
-    [vincentkienatitle, vincentkienabio, kienatan, vincenttran],                // 13
-    [kellyhientitle, kellyhienbio, kellytran, hiennguyen],                // 14
-    [dailancetitle, dailancebio, daile, lancegiang],                    // 15
-    [roryjamestitle, roryjamesbio, rorykien, jamespham],                  // 16
-    [nicolechristitle, nicolechrisbio, chrisle, nicolehatton],                // 17
-    [shawnlilliantitle, shawnlillianbio, lilliangonick, shawnnguyen],           // 18
-    [damonamytitle, damonamybio, amyduong, damonle],                    // 19
-    [jennykellytitle, jennykellybio, jennytran, kellytang],                 // 20
-    [andrewandrewtitle, andrewandrewbio, andrewtang, andrewnguyen],             // 21
-    [phiracheltitle, phirachelbio, racheltang, phile],                    // 22
-    [selinanathantitle, selinanathanbio, nathantran, selinavuong],              // 23
-    [steventayshontitle, steventayshonbio, tayshonkim, stevenhuynh],              // 24
-    [mythuanhowardtitle, mythuanhowardbio, howardtrinh, mythuanhahoang],          // 25
+    [dankatietitle, danpham, katiedoan],                   // 0
+    [ericmelodytitle, ericdien, melodypho],                  // 1
+    [madelineanthonytitle, madelinemai, anthonypham],             // 2
+    [sammyjaclyntitle, sammynguyen, jaclynnguyen],            // 3
+    [brianaryantitle, ryanquach, briananguyen],              // 4
+    [prestondanieltitle, BgPic, prestonpham],                   // 5
+    [ethanjessicatitle, jessicale, ethandao],                  // 6
+    [stevejohntitle, johnpham, stevepham],                  // 7
+    [hyunkevintitle, kevinespinas, hyunkim],                // 8
+    [mikeybriannatitle, briannatran, mikeychoi],               // 9
+    [jacquevanessatitle, jacquenguyen, vanessatran],            // 10
+    [katesophiatitle, sophianguyen, katedinh],               // 11
+    [kimashleytitle, ashleythai, kimtran],                  // 12
+    [vincentkienatitle, kienatan, vincenttran],                // 13
+    [kellyhientitle, kellytran, hiennguyen],                // 14
+    [dailancetitle, daile, lancegiang],                    // 15
+    [roryjamestitle, rorykien, jamespham],                  // 16
+    [nicolechristitle, chrisle, nicolehatton],                // 17
+    [shawnlilliantitle, lilliangonick, shawnnguyen],           // 18
+    [damonamytitle, amyduong, damonle],                    // 19
+    [jennykellytitle, jennytran, kellytang],                 // 20
+    [andrewandrewtitle, andrewtang, andrewnguyen],             // 21
+    [phiracheltitle, racheltang, phile],                    // 22
+    [selinanathantitle, nathantran, selinavuong],              // 23
+    [steventayshontitle, tayshonkim, stevenhuynh],              // 24
+    [mythuanhowardtitle, howardtrinh, mythuanhahoang],          // 25
 ];
 
 const videoLink = [

@@ -74,6 +74,21 @@ export default function Navigation() {
     }
   ]
 
+  const famsHeader = {
+    to: "/JoinAFam",
+    name: "Fams"
+  }
+
+  const famsList = [
+    {
+      to: "/MeetTheBigs",
+      name: "Meet The Bigs!"
+    },
+    {
+      to: "/JoinAFam",
+      name: "Join A Fam!"
+    }
+  ]
 
   return (
     <>
@@ -82,8 +97,7 @@ export default function Navigation() {
         <DropdownMenu header={aboutHeader} list={aboutList} />
         <DropdownMenu header={involvementHeader} list={involvementList} />
         <DropdownMenu header={programsHeader} list={programsList} />
-        <NavLink to="/MeetTheBigs">Meet The Bigs!</NavLink>
-        <NavLink to="/JoinAFam">Join A Fam!</NavLink>
+        <DropdownMenu header={famsHeader} list={famsList} />
 
         {/*
         <NavLink to="/about">About</NavLink>
