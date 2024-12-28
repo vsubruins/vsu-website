@@ -9,6 +9,19 @@ import {
     FamName
 } from "../Page/Page";
 
+// Define types for button objects
+interface ButtonType {
+    title: string;
+    imageUrl: string;
+    width?: string;
+}
+
+// Define types for the props of StylizedButton
+interface StylizedButtonProps {
+    buttons: ButtonType[];
+    onButtonClick?: (button: ButtonType) => void;
+}
+
 // Styled components
 const ImageButton = styled(ButtonBase)(({ theme }) => ({
     position: 'relative',
@@ -25,9 +38,6 @@ const ImageButton = styled(ButtonBase)(({ theme }) => ({
         '& .MuiImageMarked-root': {
             opacity: 0,
         },
-        // '& .MuiTypography-root': {
-        //     border: '4px solid currentColor',
-        // },
     },
 }));
 
@@ -74,14 +84,15 @@ const ImageMarked = styled('span')(({ theme }) => ({
     transition: theme.transitions.create('opacity'),
 }));
 
-const StylizedButton = ({ buttons, onButtonClick }) => {
-    const [anchorEl, setAnchorEl] = useState(null);
-    const [selectedButton, setSelectedButton] = useState(null);
+// StylizedButton component with types
+const StylizedButton: React.FC<StylizedButtonProps> = ({ buttons, onButtonClick }) => {
+    const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+    const [selectedButton, setSelectedButton] = useState<ButtonType | null>(null);
 
-    const handleClick = (event, button) => {
+    const handleClick = (event: React.MouseEvent<HTMLElement>, button: ButtonType) => {
         setAnchorEl(event.currentTarget);
         setSelectedButton(button);
-        onButtonClick && onButtonClick(button);
+        if (onButtonClick) onButtonClick(button);
     };
 
     const handleClose = () => {
@@ -106,7 +117,7 @@ const StylizedButton = ({ buttons, onButtonClick }) => {
                         <FamName style={{
                             fontFamily: 'Lexend',
                             fontSize: '15px'
-                            }}>
+                        }}>
                             {button.title}
                         </FamName>
                     </Image>

@@ -6,6 +6,11 @@ import { ReactComponent as RedTriangle } from "../../assets/shapes/redtriangle.s
 
 import WelcomeWeek from "./WelcomeWeek";
 
+// Define types for the props
+interface CoverProps {
+  src: string; // Assuming src is a string; adjust if it's a different type
+}
+
 const Layout = styled("div")`
   display: flex;
   width: 100%;
@@ -59,7 +64,7 @@ const Triangle = styled(RedTriangle)`
   top: -6rem;
 `;
 
-export default function Cover(props) {
+const Cover: React.FC<CoverProps> = (props) => {
   return (
     <>
       <Layout>
@@ -77,4 +82,6 @@ export default function Cover(props) {
       </Layout>
     </>
   );
-}
+};
+
+export default Cover;

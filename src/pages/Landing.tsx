@@ -9,13 +9,11 @@ import Footer from "../components/Footer/Footer";
 import { PageWrapper } from "../components/Page/Page";
 
 import InstaFeed from "../components/Landing/InstagramFeed";
-import 'dotenv';
-
 import WelcomeImage from "../assets/welcomeweek.png"
 
 export default function LandingPage() {
 
-  require('dotenv').config();
+  const instagramToken = process.env.REACT_APP_INSTAGRAM_API_KEY || '';
 
   return (
     <>
@@ -23,10 +21,10 @@ export default function LandingPage() {
         <NavBar />
         <Cover src={WelcomeImage} />
         <LandingInfo />
-        <br/>
+        <br />
         <LandingSocialMedia />
         {/* <Calendar /> */}
-        <InstaFeed token={process.env.REACT_APP_INSTAGRAM_API_KEY} limit={12} />
+        <InstaFeed token={instagramToken} limit={12} />
         <Footer />
       </PageWrapper>
     </>

@@ -1,21 +1,31 @@
 import { useState, useRef } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-
 import { useOnHoverOutside } from "../../hooks/useOnHoverOutside";
+
+// Type for the `header` and `list` props
+interface LinkItem {
+    to: string;
+    name: string;
+}
+
+interface DropdownMenuProps {
+    header: LinkItem;
+    list: LinkItem[];
+}
 
 const DropdownWrapper = styled('div')`
     display: block;
     align-items: center;
     list-style: none;
     z-index: 100;
-`
+`;
 
 const DropdownHeader = styled('div')`
     position: relative;
     font-size: 1vw;
     padding: 0.1rem;
-`
+`;
 
 const DropdownList = styled('ul')`
     position: absolute;
@@ -28,11 +38,11 @@ const DropdownList = styled('ul')`
     list-style: none;
     background-color: #fff;
     padding-bottom: 10px;
-`
+`;
 
 const DropdownItem = styled('li')`
     padding: 10px 10px;
-`
+`;
 
 const NavLink = styled(Link)`
   text-decoration: none;
@@ -48,10 +58,9 @@ const NavLink = styled(Link)`
   }
 `;
 
-export default function DropdownMenu(props) {
-    const dropdownRef = useRef(null)
+export default function DropdownMenu({ header, list }: DropdownMenuProps) {
+    const dropdownRef = useRef<HTMLDivElement | null>(null); // Corrected to HTMLDivElement | null
     const [open, setOpen] = useState(false);
-    const { header, list } = props
 
     const openDropdown = () => {
         setOpen(true);
@@ -61,23 +70,25 @@ export default function DropdownMenu(props) {
         setOpen(false);
     };
 
-    useOnHoverOutside(dropdownRef, hoverOutside);
+    // Cast to HTMLElement to match expected type
+    useOnHoverOutside(dropdownRef as React.RefObject<HTMLElement>, hoverOutside);
 
     return (
         <DropdownWrapper ref={dropdownRef}>
             <DropdownHeader>
-                <NavLink to={header.to} onMouseOver={openDropdown}>{header.name}</NavLink>
+                <NavLink to={header.to} onMouseOver={openDropdown}>
+                    {header.name}
+                </NavLink>
             </DropdownHeader>
-            {open? 
+            {open && (
                 <DropdownList>
-                    {list.map((page, index) => {
-                        return (
-                            <DropdownItem key={index}>
-                                <NavLink to={page.to}>{page.name}</NavLink>
-                            </DropdownItem>
-                        )
-                    })}
-                </DropdownList> : ''}
+                    {list.map((page: LinkItem, index: number) => (
+                        <DropdownItem key={index}>
+                            <NavLink to={page.to}>{page.name}</NavLink>
+                        </DropdownItem>
+                    ))}
+                </DropdownList>
+            )}
         </DropdownWrapper>
-    )
+    );
 }

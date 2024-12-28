@@ -59,12 +59,14 @@ const ApplyButton = {
 
 export default function Fams() {
 
-    const famSystemRef = useRef(null);
+    const famSystemRef = useRef<HTMLDivElement | null>(null);
+
     const scrollToSection = () => {
         if (famSystemRef.current) {
-            famSystemRef.current.scrollIntoView({ behavior: 'smooth' });
+            famSystemRef.current.scrollIntoView({ behavior: "smooth" });
         }
     };
+    
     return (
         <>
             <PageWrapper>

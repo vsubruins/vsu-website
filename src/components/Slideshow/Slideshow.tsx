@@ -1,6 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
+// Define types for the props
+interface SlideshowProps {
+    images: string[];
+}
 
 const SlideshowWrapper = styled('div')`
     margin: 0 auto;
@@ -45,53 +49,50 @@ const ActiveDot = styled('button')`
     border: none;
 `
 
-
-export default function Slideshow(props) {
+export default function Slideshow({ images }: SlideshowProps) {
     const [index, setIndex] = React.useState(0);
-    const { images } = props
     const delay = 5000;
-    const timeoutRef = React.useRef(null);
-    
+    const timeoutRef = React.useRef<NodeJS.Timeout | null>(null);
+
     function resetTimeout() {
         if (timeoutRef.current) {
-          clearTimeout(timeoutRef.current);
+            clearTimeout(timeoutRef.current);
         }
     }
 
     React.useEffect(() => {
         resetTimeout();
         timeoutRef.current = setTimeout(
-          () =>
-            setIndex((prevIndex) =>
-                prevIndex === images.length - 1 ? 0 : prevIndex + 1
-            ),
-          delay
+            () =>
+                setIndex((prevIndex) =>
+                    prevIndex === images.length - 1 ? 0 : prevIndex + 1
+                ),
+            delay
         );
-    
-        return () => {};
-      }, [index]);
 
+        return () => { };
+    }, [index, images.length]);
 
-    const handleDots =(idx)=> {
+    const handleDots = (idx: number) => {
         if (index === idx) {
             return (
-                <ActiveDot key={idx} onClick={() => {setIndex(idx)}} /> 
-            )
+                <ActiveDot key={idx} onClick={() => { setIndex(idx); }} />
+            );
         } else {
             return (
-                <Dot key={idx} onClick={() => {setIndex(idx)}} /> 
-            )
+                <Dot key={idx} onClick={() => { setIndex(idx); }} />
+            );
         }
     }
 
     return (
         <SlideshowWrapper>
-            <SlideshowSlider style={{ transform: `translate3d(${-index*100}%, 0, 0)`}}>
+            <SlideshowSlider style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
                 {images.map((img, index) => (
-                    <Slide 
+                    <Slide
                         key={index}
                         src={img}
-                    ></Slide> 
+                    />
                 ))}
             </SlideshowSlider>
 
@@ -101,5 +102,5 @@ export default function Slideshow(props) {
                 ))}
             </SlideshowDots>
         </SlideshowWrapper>
-    )
+    );
 }

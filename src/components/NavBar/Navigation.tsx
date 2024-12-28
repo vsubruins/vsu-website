@@ -1,9 +1,7 @@
 import React from "react";
 import styled from "styled-components";
-
 import { Link } from "react-router-dom";
-
-import DropdownMenu from "./DropdownMenu";
+import DropdownMenu from "./DropdownMenu"; // Imported DropdownMenu
 
 const Wrapper = styled("div")`
   display: flex;
@@ -24,99 +22,79 @@ const NavLink = styled(Link)`
   font-size: 16px;
 `;
 
+type LinkItem = {
+  to: string;
+  name: string;
+};
+
+type DropdownMenuProps = {
+  header: LinkItem;
+  list: LinkItem[];
+};
+
+const DropdownMenuComponent = ({ header, list }: DropdownMenuProps) => {
+  return (
+    <div>
+      <Link to={header.to}>{header.name}</Link>
+      <ul>
+        {list.map((item, index) => (
+          <li key={index}>
+            <Link to={item.to}>{item.name}</Link>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
 export default function Navigation() {
+  const aboutHeader: LinkItem = {
+    to: "/about",
+    name: "About",
+  };
 
-  const aboutHeader = {
-    to:"/about",
-    name:"About"
-  }
+  const aboutList: LinkItem[] = [
+    // { to: "/staff", name: "Staff" }
+  ];
 
-  const aboutList = [
-    // {
-    //   to:"/staff",
-    //   name:"Staff"
-    // }
-  ]
+  const involvementHeader: LinkItem = {
+    to: "/membership",
+    name: "Membership",
+  };
 
-  const involvementHeader = {
-    to:"/membership",
-    name:"Membership"
-  }
+  const involvementList: LinkItem[] = [
+    { to: "/internship", name: "Internship" },
+    { to: "/seaclear", name: "SEA CLEAR" },
+    { to: "/hope", name: "HOPE" },
+  ];
 
-  const involvementList = [
-    {
-      to:"/internship",
-      name:"Internship"
-    },
-    {
-      to:"/seaclear",
-      name:"SEA CLEAR"
-    },
-    {
-      to:"/hope",
-      name:"HOPE"
-    }
-  ]
+  const programsHeader: LinkItem = {
+    to: "/",
+    name: "Our Programs",
+  };
 
-  const programsHeader = {
-    to:"/",
-    name:"Our Programs"
-  }
+  const programsList: LinkItem[] = [
+    { to: "/culturenight", name: "Culture Night" },
+    { to: "/educationprograms", name: "Education Programs" },
+  ];
 
-  const programsList = [
-    {
-      to:"/culturenight",
-      name:"Culture Night"
-    },    
-    {
-      to:"/educationprograms",
-      name:"Education Programs"
-    }
-  ]
-
-  const famsHeader = {
+  const famsHeader: LinkItem = {
     to: "/JoinAFam",
-    name: "Fams"
-  }
+    name: "Fams",
+  };
 
-  const famsList = [
-    {
-      to: "/MeetTheBigs",
-      name: "Meet The Bigs!"
-    },
-    {
-      to: "/JoinAFam",
-      name: "Join A Fam!"
-    }
-  ]
+  const famsList: LinkItem[] = [
+    { to: "/MeetTheBigs", name: "Meet The Bigs!" },
+    { to: "/JoinAFam", name: "Join A Fam!" },
+  ];
 
   return (
     <>
       <Wrapper>
-
         <DropdownMenu header={aboutHeader} list={aboutList} />
         <DropdownMenu header={involvementHeader} list={involvementList} />
         <DropdownMenu header={programsHeader} list={programsList} />
         <DropdownMenu header={famsHeader} list={famsList} />
-
-        {/*
-        <NavLink to="/about">About</NavLink>
-        <ExtNavLink
-          target="_blank"
-          href="https://www.instagram.com/vsubruins"
-        >
-          Events
-        </ExtNavLink>
-        <NavLink to="/hope">HOPE</NavLink>
-        <NavLink to="/seaclear">SEA CLEAR</NavLink>
-        <NavLink to="/staff">Staff</NavLink>
-        <NavLink to="/gallery">Gallery</NavLink>
-        <NavLink to="/membership">Membership</NavLink>
-        <NavLink to="/culturenight">Culture Night</NavLink>
-        <NavLink to="/educationprograms">Education Programs</NavLink>
-        <NavLink to="/internship">Internship</NavLink>
-        */}
-
       </Wrapper>
     </>
   );
