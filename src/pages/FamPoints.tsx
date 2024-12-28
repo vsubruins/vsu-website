@@ -26,14 +26,33 @@ export default function FamPoints() {
     
 
     const options = {
-        title: "Population of Largest U.S. Cities",
-        chartArea: { width: "50%" },
+        title: "Fam Leaderboard — Top 15",
+        titleTextStyle: {
+            fontSize: 20,
+            fontName: 'Kumbh Sans',
+            bold: true,
+        },
+        chartArea: { width: "60%" },
         hAxis: {
-            title: "Total Population",
+            title: "Total Points",
             minValue: 0,
+            maxValue: 1000,
+            textStyle: {
+                fontSize: 12,
+                color: '#000000',
+            },
+        },
+        animation: {
+            duration: 1000,   // Duration in milliseconds
+            easing: 'inAndOut' // Easing function
         },
         vAxis: {
-            title: "City",
+            // title: "Fams",
+            textStyle: {
+                fontSize: 14,
+                fontName: 'Kumbh Sans',
+                color: '#000000',
+            },
         },
     };
 
@@ -46,10 +65,10 @@ export default function FamPoints() {
                         {/* <PageTitle>VSU Fams</PageTitle> */}
 
                     <Chart
-                        spreadSheetUrl="https://docs.google.com/spreadsheets/d/1jN0iw0usssnsG1_oi-NXtuKfsUsGme09GsFidbqxFYA/edit#gid=0"
+                        spreadSheetUrl="https://docs.google.com/spreadsheets/d/1Ziy7VycHFEsYbesShVxaa-E37HKU_DRtt7PPXbXQtZQ/edit?gid=0#gid=0"
                         chartType="BarChart"
                         width="100%"
-                        height="400px"
+                        height="100vh"
                         options={options}
                     />
                     
