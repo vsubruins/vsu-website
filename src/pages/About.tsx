@@ -24,26 +24,16 @@ export default function About() {
             advocacy for the cultural, educational, political, and social
             welfare of the Vietnamese community at large.
           </PageText>
-          <PageHeader>Vision Statement (2023-2024)</PageHeader>
+          <PageHeader>Vision Statement (2024-2025)</PageHeader>
           <PageText>
-            “The Vietnamese Student Union (VSU) at the University of
-            California, Los Angeles strives to build a resilient and empowered
-            community that is committed to solidarity with other marginalized
-            communities of color. <br /> <br /> We hope to create a safe and 
-            welcoming space where members may be united through community-conscious
-            programs and projects that serve our needs at this time. <br />{" "}
-            <br />
-            In light of the current political climate, we aim to promote civic
-            engagement by equipping members with the skills and resources
-            necessary to advocate for our community’s needs while closely
-            collaborating with other communities in the fight for equity and
-            justice. <br /> <br />
-            By embracing our cultural heritage as well as our refugee and
-            immigrant experiences, we will continue to shed light on our
-            unique Vietnamese culture and history both on and off campus.”{" "}
-            <br />{" "}
-            <br />
-            <strong>Est. September 25, 2023 | VSU Board 2023-2024</strong>
+
+            "The Vietnamese Student Union (VSU) at the University of California, Los Angeles strives to build a resilient and empowered community that is committed to solidarity with other marginalized communities of color. We hope to create a safe and welcoming space where members may be united through community-conscious programs and projects that serve our current needs. Furthermore, we aim to ensure that our initiatives are accessible for all of our members.
+            <br /> <br /> 
+            Imperialism and its far-reaching impacts, including war, exploitation, and displacement, continue to perpetuate systems of oppression that impede our access to basic needs and rights. With our ever-changing political climate, we aim to promote civic engagement by equipping members with the skills and resources necessary to advocate for our community’s needs while closely collaborating with other spaces in the fight for equity and justice.
+            <br /> <br /> 
+            By embracing our cultural heritage as well as our refugee and immigrant experiences, we will continue to shed light on our unique Vietnamese culture and history both on and off campus. Through our outreach and retention projects, Higher Opportunity Program for Education (HOPE) and Southeast Asian Campus Learning Education and Retention (SEA CLEAR) respectively, as well as various programs that eliminate barriers to higher education, VSU will continue to advocate for the needs of our constituencies in the broader Southeast Asian community and beyond."
+            <br /> <br />
+            <strong>Est. November 7, 2024 | VSU Board 2024-2025</strong>
           </PageText>
           <PageHeader>History of VSU</PageHeader>
           <PageText>
