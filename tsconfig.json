@@ -1,19 +1,19 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES2020", // Updated for modern JavaScript features
     "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
+      "DOM",
+      "DOM.Iterable",
+      "ES2020" // Aligns with the target version
     ],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
-    "strict": false,
+    "strict": true, // Enable strict type-checking for better safety
     "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
-    "moduleResolution": "node",
+    "module": "ESNext", // Updated for compatibility with ES modules
+    "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,

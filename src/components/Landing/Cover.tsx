@@ -1,28 +1,36 @@
 import React from "react";
 import styled from "styled-components";
 
-import { ReactComponent as YellowCircle } from "../../assets/yellowcircle.svg";
-import { ReactComponent as RedTriangle } from "../../assets/redtriangle.svg";
+import { ReactComponent as YellowCircle } from "../../assets/shapes/yellowcircle.svg";
+import { ReactComponent as RedTriangle } from "../../assets/shapes/redtriangle.svg";
+
+import WelcomeWeek from "./WelcomeWeek";
+
+// Define types for the props
+interface CoverProps {
+  src: string; // Assuming src is a string; adjust if it's a different type
+}
 
 const Layout = styled("div")`
   display: flex;
   width: 100%;
-  height: 370px;
+  height: 20rem; /*NORMAL HEIGHT IS 370! WITH WELCOME WEEK FLYER, HEIGHT IS 800! CHANGE BACK WHEN NEEDED*/
 `;
 
 const SlideWrapper = styled("div")`
   background: var(--blue);
   width: 50%;
+  z-index: -100;
 `;
 
 const CoverWrapper = styled("div")`
-  width: 50%;
+  width: 70%;
   background: var(--lightyellow);
   display: flex;
   justify-content: center;
   align-items: center;
   position: relative;
-  z-index: -10;
+  z-index: -100;
 `;
 
 const Text = styled("div")`
@@ -30,12 +38,13 @@ const Text = styled("div")`
   flex-direction: column;
   justify-content: center;
   letter-spacing: 0.1em;
-  font-size: 20px;
+  font-size: 1rem;
+  margin-left: 20px;
 `;
 
 const WelcomeText = styled("p")`
   font-weight: bold;
-  font-size: 40px;
+  font-size: 2rem;
   margin-bottom: 5px;
   margin-top: 0px;
 `;
@@ -43,23 +52,25 @@ const WelcomeText = styled("p")`
 const Circle = styled(YellowCircle)`
   position: absolute;
   z-index: -5;
-  width: 170px;
-  left: 10px;
+  width: 10vw;
+  left: 1vw;
 `;
 
 const Triangle = styled(RedTriangle)`
   position: absolute;
   z-index: -5;
-  width: 250px;
-  right: -70px;
-  top: -70px;
+  width: 12vw;
+  right: 1vw;
+  top: -6rem;
 `;
 
-export default function Cover() {
+const Cover: React.FC<CoverProps> = (props) => {
   return (
     <>
       <Layout>
-        <SlideWrapper />
+        <SlideWrapper>
+          {/* <WelcomeWeek src={props.src}/> UNCOMMENT THIS FOR WELCOME WEEK! */}
+        </SlideWrapper>
         <CoverWrapper>
           <Circle />
           <Triangle />
@@ -71,4 +82,6 @@ export default function Cover() {
       </Layout>
     </>
   );
-}
+};
+
+export default Cover;

@@ -11,11 +11,12 @@ const StaffWrapper = styled("div")`
   width: 250px;
 `;
 
-const StaffPic = styled("div")<{ pic: any }>`
+const StaffPic = styled.img<{ pic: any }>`
   background: ${(props) => `url(${props.pic})`} no-repeat center;
   background-size: cover;
-  width: 100%;
-  height: 250px;
+  aspect-ratio: 1/ 1;
+  width: 235px;
+  padding: 3%;
 `;
 
 const StaffInfo = styled("div")`

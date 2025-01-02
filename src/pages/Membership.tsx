@@ -17,7 +17,7 @@ const ExtNavLink = styled("a")`
   padding: 15px 8px;
   margin-left: 5px;
   margin-right: 5px;
-  font-size: 14px;
+  font-size: 18px;
 
   &:hover {
     border-bottom: black 2px solid;
@@ -48,7 +48,7 @@ export default function Membership() {
             learning more about Vietnamese culture, history, or issues in the
             Vietnamese community. <br />
             <br /> There is no application or process necessary to become a
-            general member. If you'd like to be a VSU member for 2021-2022, please fill out the form linked at the bottom of the page. 
+            general member. If you'd like to be a VSU member for 2023-2024, please fill out the form linked at the bottom of the page. 
             To get involved, just drop by at any of our general meetings and subscribe to our newsletter to get
             weekly updates and general meeting dates. <br /> <br />
             VSU also has two chief projects, <strong>HOPE</strong> and{" "}
@@ -61,23 +61,29 @@ export default function Membership() {
             HOPE: Higher Opportunity Program for Education
             <br />
             SEA CLEAR: Southeast Asian Campus Learning Education and Retention
-            <br />
-            <br />
-            Contact:
-            <br />
-            Michelle Pham 
-            <br />
-            <br />
-            Social Affairs Coordinator 2021-2022 <br /> vsusocialcoord@gmail.com
           </PageText>
-
           <ExtNavLink
-          target="_blank"
-          href="https://tinyurl.com/vsumembersignnup"
-        >
-          Membership Form 
-        </ExtNavLink>
+            target="_blank"
+            href="https://tinyurl.com/vsumembersignnup"
+          >
+            Membership Form 
+          </ExtNavLink>
+          <ExtNavLink
+            target="_blank"
+            href="https://vsubruins.us7.list-manage.com/subscribe?u=826fb05e04f5075714d743cc0&id=91200819b2"
+          >
+            Newsletter Sign Up
+          </ExtNavLink>
+          <PageHeader>Contact</PageHeader>
+          <PageText>
+            Anh Trinh<br />
+            Social Affairs Coordinator 2023-2024<br />
+            <b>Email:</b> vsu.socialaffairs@gmail.com<br /><br />
 
+            Ashley Cao<br />
+            President 2023-2024<br />
+            <b>Email:</b> vsubruins@gmail.com
+          </PageText>
         </PageContent>
         <Footer />
       </PageWrapper>

@@ -1,112 +1,104 @@
-import React from "react";
+//import React from "react";
 
 // ATTENTION!!
 //
 // UPDATE EVERY YEAR WITH NEW BOARD PICTURES
 //
-import annie from "./staff/annie.jpg";
 import ashley from "./staff/ashley.jpg";
-import brandon from "./staff/brandon.jpg";
-import caroline from "./staff/caroline.jpg";
-import deena from "./staff/deena.jpg";
-import eric from "./staff/eric.jpg";
-import gena from "./staff/gena.jpg";
-import kaitlyn from "./staff/kaitlyn.jpg";
-import michelleN from "./staff/michelleN.jpg";
-import michelleP from "./staff/michelleP.jpg";
-import tiffany from "./staff/tiffany.jpg";
-import vy from "./staff/vy.jpg";
-import jamie from "./staff/jamie.jpeg";
-import cindy from "./staff/cindy.jpg";
+import tyler from "./staff/tyler.jpg";
+import mel from "./staff/mel.jpg";
+import alvin from "./staff/alvin.jpg";
+import vanessa from "./staff/vanessa.jpg";
+import ethan from "./staff/ethan.jpg";
+import ryan from "./staff/ryan.png";
+import anh from "./staff/anh.jpg";
+import mikey from "./staff/mikey.jpg";
+import sydney from "./staff/sydney.jpg";
+import khiem from "./staff/khiem.jpg";
+import carmela from "./staff/carmela.jpg";
+import tracy from "./staff/tracy.jpg";
+import karen from "./staff/karen.jpg";
+
 export var staffMembers = [
   {
     role: "President",
-    name: "Cindy Nguyen",
-    picture: cindy,
-  },
-  {
-    role: "Internal Vice President",
-    name: "Tiffany Dong",
-    picture: tiffany,
-  },
-  {
-    role: "External Vice President",
-    name: "Eric Ngo",
-    picture: eric,
-  },
-  {
-    role: "Administrative Coordinator",
-    name: "Caroline Huynh",
-    picture: caroline,
-  },
-  {
-    role: "Fiscal Coordinator",
-    name: "Jamie Vu",
-    picture: jamie,
-  },
-  {
-    role: "Retention Coordinator",
-    name: "Annie Pham",
-    picture: annie,
-  },
-  {
-    role: "Outreach Coordinator",
-    name: "Kaitlyn Vu",
-    picture: kaitlyn,
-  },
-  {
-    role: "Social Affairs Coordinator",
-    name: "Michelle Pham",
-    picture: michelleP,
-  },
-  {
-    role: "Activities Coordinator",
     name: "Ashley Cao",
     picture: ashley,
   },
   {
+    role: "Internal Vice President",
+    name: "Tyler Tu",
+    picture: tyler,
+  },
+  {
+    role: "External Vice President",
+    name: "Mel Trinh",
+    picture: mel,
+  },
+  {
+    role: "Administrative Coordinator",
+    name: "Alvin Luu",
+    picture: alvin,
+  },
+  {
+    role: "Fiscal Coordinator",
+    name: "Vanessa Tran",
+    picture: vanessa,
+  },
+  {
+    role: "Retention Coordinator",
+    name: "Ethan Mai",
+    picture: ethan,
+  },
+  {
+    role: "Outreach Coordinator",
+    name: "Ryan Khiev",
+    picture: ryan,
+  },
+  {
+    role: "Social Affairs Coordinator",
+    name: "Anh Trinh",
+    picture: anh,
+  },
+  {
+    role: "Activities Coordinator",
+    name: "Mikey Choi",
+    picture: mikey,
+  },
+  {
     role: "Community Advocacy Coordinator",
-    name: "Michelle Nguyen",
-    picture: michelleN,
+    name: "Sydney Trieu",
+    picture: sydney,
   },
   {
     role: "Political Advocacy Coordinator",
-    name: "Brandon Le",
-    picture: brandon,
+    name: "Khiem Le",
+    picture: khiem,
   },
   {
     role: "Education Coordinator",
-    name: "Vy Diep",
-    picture: vy,
+    name: "Carmela Navata",
+    picture: carmela,
   },
   {
     role: "Culture Coordinator",
-    name: "Gena Huynh",
-    picture: gena,
+    name: "Tracy Tran",
+    picture: tracy,
   },
   {
     role: "Public Relations Coordinator",
-    name: "Deena Doan",
-    picture: deena,
-  },
-  // {
-  //   role: "Inter-Collegiate Council Representative",
-  //   name: "Adela Tran",
-  //   picture: adela,
-  // },
+    name: "Karen Nguyen",
+    picture: karen,
+  }
 ];
 
+
 // PHOTOS FOR GALLERY
-function importAll(r) {
-  return r.keys().map(r);
+var photos = [];
+for (let i = 0; i <= 9; i++) {
+  photos.push(`/gallery/${i}.png`);
 }
-
-const images = importAll(
-  require.context("./gallery", false, /\.(png|jpe?g|svg|JPG)$/)
-);
-
-export var photos = images.map((pic) => {
-  // var width = Math.max(1, Math.round(Math.random() * 4));
-  // var height = Math.max(1, Math.round(Math.random() * width));
-  return { src: pic, width: 3, height: 2 };
-});
+for (let i = 10; i <= 15; i++) {
+  photos.push(`/gallery/${i}.jpg`);
+}
+export default photos;
